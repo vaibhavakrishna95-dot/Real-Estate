@@ -1,0 +1,8854 @@
+{
+  "price_distribution": {
+    "bins": [
+      "$34,900 - $58,903",
+      "$58,903 - $82,906",
+      "$82,906 - $106,910",
+      "$106,910 - $130,913",
+      "$130,913 - $154,916",
+      "$154,916 - $178,920",
+      "$178,920 - $202,923",
+      "$202,923 - $226,926",
+      "$226,926 - $250,930",
+      "$250,930 - $274,933",
+      "$274,933 - $298,936",
+      "$298,936 - $322,940",
+      "$322,940 - $346,943",
+      "$346,943 - $370,946",
+      "$370,946 - $394,950",
+      "$394,950 - $418,953",
+      "$418,953 - $442,956",
+      "$442,956 - $466,960",
+      "$466,960 - $490,963",
+      "$490,963 - $514,966",
+      "$514,966 - $538,970",
+      "$538,970 - $562,973",
+      "$562,973 - $586,976",
+      "$586,976 - $610,980",
+      "$610,980 - $634,983",
+      "$634,983 - $658,986",
+      "$658,986 - $682,990",
+      "$682,990 - $706,993",
+      "$706,993 - $730,996",
+      "$730,996 - $755,000"
+    ],
+    "bin_centers": [
+      46901.7,
+      70905.0,
+      94908.3,
+      118911.7,
+      142915.0,
+      166918.3,
+      190921.7,
+      214925.0,
+      238928.3,
+      262931.7,
+      286935.0,
+      310938.3,
+      334941.7,
+      358945.0,
+      382948.3,
+      406951.7,
+      430955.0,
+      454958.3,
+      478961.7,
+      502965.0,
+      526968.3,
+      550971.7,
+      574975.0,
+      598978.3,
+      622981.7,
+      646985.0,
+      670988.3,
+      694991.7,
+      718995.0,
+      742998.3
+    ],
+    "counts": [
+      10,
+      27,
+      75,
+      183,
+      222,
+      177,
+      136,
+      86,
+      75,
+      50,
+      37,
+      29,
+      19,
+      9,
+      12,
+      4,
+      5,
+      3,
+      2,
+      1,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "mean": 181477.0059931507,
+    "median": 163995.0,
+    "skewness": 1.953877705368286,
+    "kurtosis": 7.390656691648756
+  },
+  "neighborhood_stats": [
+    {
+      "neighborhood": "NridgHt",
+      "count": 61,
+      "mean": 312548.66,
+      "median": 309000.0,
+      "min": 154000.0,
+      "max": 611657.0
+    },
+    {
+      "neighborhood": "NoRidge",
+      "count": 35,
+      "mean": 341260.23,
+      "median": 302000.0,
+      "min": 190000.0,
+      "max": 755000.0
+    },
+    {
+      "neighborhood": "StoneBr",
+      "count": 19,
+      "mean": 301145.74,
+      "median": 278000.0,
+      "min": 170000.0,
+      "max": 556581.0
+    },
+    {
+      "neighborhood": "Veenker",
+      "count": 9,
+      "mean": 246833.33,
+      "median": 245500.0,
+      "min": 162500.0,
+      "max": 385000.0
+    },
+    {
+      "neighborhood": "Timber",
+      "count": 24,
+      "mean": 240579.29,
+      "median": 226250.0,
+      "min": 160000.0,
+      "max": 378500.0
+    },
+    {
+      "neighborhood": "Somerst",
+      "count": 68,
+      "mean": 222649.59,
+      "median": 223500.0,
+      "min": 144152.0,
+      "max": 423000.0
+    },
+    {
+      "neighborhood": "ClearCr",
+      "count": 24,
+      "mean": 216120.83,
+      "median": 205500.0,
+      "min": 130000.0,
+      "max": 328000.0
+    },
+    {
+      "neighborhood": "Crawfor",
+      "count": 45,
+      "mean": 208474.69,
+      "median": 200624.0,
+      "min": 90350.0,
+      "max": 392500.0
+    },
+    {
+      "neighborhood": "CollgCr",
+      "count": 118,
+      "mean": 199517.51,
+      "median": 199450.0,
+      "min": 110000.0,
+      "max": 383970.0
+    },
+    {
+      "neighborhood": "Blmngtn",
+      "count": 15,
+      "mean": 195987.0,
+      "median": 191000.0,
+      "min": 159895.0,
+      "max": 264561.0
+    },
+    {
+      "neighborhood": "Gilbert",
+      "count": 64,
+      "mean": 194790.09,
+      "median": 182167.0,
+      "min": 141000.0,
+      "max": 377500.0
+    },
+    {
+      "neighborhood": "NWAmes",
+      "count": 59,
+      "mean": 191643.31,
+      "median": 181000.0,
+      "min": 135000.0,
+      "max": 299800.0
+    },
+    {
+      "neighborhood": "SawyerW",
+      "count": 51,
+      "mean": 186909.65,
+      "median": 179900.0,
+      "min": 76000.0,
+      "max": 320000.0
+    },
+    {
+      "neighborhood": "Mitchel",
+      "count": 34,
+      "mean": 154654.41,
+      "median": 154750.0,
+      "min": 84500.0,
+      "max": 240000.0
+    },
+    {
+      "neighborhood": "NPkVill",
+      "count": 8,
+      "mean": 141968.75,
+      "median": 144875.0,
+      "min": 127500.0,
+      "max": 155000.0
+    },
+    {
+      "neighborhood": "NAmes",
+      "count": 182,
+      "mean": 146511.23,
+      "median": 140000.0,
+      "min": 87500.0,
+      "max": 345000.0
+    },
+    {
+      "neighborhood": "SWISU",
+      "count": 21,
+      "mean": 142587.33,
+      "median": 139500.0,
+      "min": 60000.0,
+      "max": 200000.0
+    },
+    {
+      "neighborhood": "Blueste",
+      "count": 2,
+      "mean": 137500.0,
+      "median": 137500.0,
+      "min": 124000.0,
+      "max": 151000.0
+    },
+    {
+      "neighborhood": "Sawyer",
+      "count": 60,
+      "mean": 135029.87,
+      "median": 133950.0,
+      "min": 62383.0,
+      "max": 190000.0
+    },
+    {
+      "neighborhood": "Edwards",
+      "count": 83,
+      "mean": 128544.22,
+      "median": 126000.0,
+      "min": 58500.0,
+      "max": 274970.0
+    },
+    {
+      "neighborhood": "OldTown",
+      "count": 86,
+      "mean": 133947.2,
+      "median": 123000.0,
+      "min": 37900.0,
+      "max": 475000.0
+    },
+    {
+      "neighborhood": "BrkSide",
+      "count": 50,
+      "mean": 122836.0,
+      "median": 120500.0,
+      "min": 39300.0,
+      "max": 223500.0
+    },
+    {
+      "neighborhood": "BrDale",
+      "count": 11,
+      "mean": 104081.82,
+      "median": 106000.0,
+      "min": 85400.0,
+      "max": 125000.0
+    },
+    {
+      "neighborhood": "IDOTRR",
+      "count": 30,
+      "mean": 101322.67,
+      "median": 104750.0,
+      "min": 34900.0,
+      "max": 169500.0
+    },
+    {
+      "neighborhood": "MeadowV",
+      "count": 9,
+      "mean": 88444.44,
+      "median": 83500.0,
+      "min": 75000.0,
+      "max": 127000.0
+    }
+  ],
+  "qual_stats": [
+    {
+      "quality": 1,
+      "count": 2,
+      "mean": 50150.0,
+      "median": 50150.0,
+      "min": 39300.0,
+      "max": 61000.0
+    },
+    {
+      "quality": 2,
+      "count": 3,
+      "mean": 51770.33,
+      "median": 60000.0,
+      "min": 35311.0,
+      "max": 60000.0
+    },
+    {
+      "quality": 3,
+      "count": 16,
+      "mean": 88498.44,
+      "median": 86250.0,
+      "min": 37900.0,
+      "max": 139600.0
+    },
+    {
+      "quality": 4,
+      "count": 93,
+      "mean": 110892.09,
+      "median": 108959.0,
+      "min": 34900.0,
+      "max": 256000.0
+    },
+    {
+      "quality": 5,
+      "count": 314,
+      "mean": 133340.38,
+      "median": 133700.0,
+      "min": 55993.0,
+      "max": 228950.0
+    },
+    {
+      "quality": 6,
+      "count": 295,
+      "mean": 162520.71,
+      "median": 160000.0,
+      "min": 76000.0,
+      "max": 277000.0
+    },
+    {
+      "quality": 7,
+      "count": 260,
+      "mean": 207887.97,
+      "median": 200120.5,
+      "min": 116900.0,
+      "max": 383970.0
+    },
+    {
+      "quality": 8,
+      "count": 138,
+      "mean": 273051.8,
+      "median": 268750.0,
+      "min": 147000.0,
+      "max": 440000.0
+    },
+    {
+      "quality": 9,
+      "count": 32,
+      "mean": 371024.09,
+      "median": 343821.5,
+      "min": 239000.0,
+      "max": 611657.0
+    },
+    {
+      "quality": 10,
+      "count": 15,
+      "mean": 437554.07,
+      "median": 426000.0,
+      "min": 160000.0,
+      "max": 755000.0
+    }
+  ],
+  "scatter_living_area": [
+    {
+      "id": 1043,
+      "x": 1306,
+      "y": 196000,
+      "quality": 6,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 123,
+      "x": 1080,
+      "y": 136000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1958
+    },
+    {
+      "id": 897,
+      "x": 951,
+      "y": 106500,
+      "quality": 4,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1936
+    },
+    {
+      "id": 253,
+      "x": 1640,
+      "y": 173000,
+      "quality": 6,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 597,
+      "x": 1368,
+      "y": 114504,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 1229,
+      "x": 1702,
+      "y": 367294,
+      "quality": 9,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2008
+    },
+    {
+      "id": 1104,
+      "x": 1194,
+      "y": 159500,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1959
+    },
+    {
+      "id": 1344,
+      "x": 1913,
+      "y": 177000,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1928
+    },
+    {
+      "id": 1203,
+      "x": 1348,
+      "y": 117000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1925
+    },
+    {
+      "id": 1238,
+      "x": 1948,
+      "y": 195000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 997,
+      "x": 1050,
+      "y": 136500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1961
+    },
+    {
+      "id": 1382,
+      "x": 2117,
+      "y": 237500,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 795,
+      "x": 1895,
+      "y": 194500,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1994
+    },
+    {
+      "id": 904,
+      "x": 1670,
+      "y": 240000,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 42,
+      "x": 1328,
+      "y": 170000,
+      "quality": 5,
+      "neighborhood": "Timber",
+      "yearBuilt": 1959
+    },
+    {
+      "id": 1033,
+      "x": 2520,
+      "y": 310000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1993
+    },
+    {
+      "id": 465,
+      "x": 1040,
+      "y": 124000,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1978
+    },
+    {
+      "id": 158,
+      "x": 1968,
+      "y": 269500,
+      "quality": 8,
+      "neighborhood": "Timber",
+      "yearBuilt": 2009
+    },
+    {
+      "id": 654,
+      "x": 1469,
+      "y": 135000,
+      "quality": 6,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1906
+    },
+    {
+      "id": 1276,
+      "x": 1920,
+      "y": 137000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1948
+    },
+    {
+      "id": 446,
+      "x": 1689,
+      "y": 127500,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 982,
+      "x": 2612,
+      "y": 336000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1998
+    },
+    {
+      "id": 184,
+      "x": 2082,
+      "y": 200000,
+      "quality": 7,
+      "neighborhood": "OldTown",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 1302,
+      "x": 1494,
+      "y": 177500,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1942
+    },
+    {
+      "id": 348,
+      "x": 1478,
+      "y": 157500,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1960
+    },
+    {
+      "id": 304,
+      "x": 894,
+      "y": 149900,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 868,
+      "x": 1120,
+      "y": 129000,
+      "quality": 4,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1961
+    },
+    {
+      "id": 1173,
+      "x": 1250,
+      "y": 171900,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 707,
+      "x": 1824,
+      "y": 302000,
+      "quality": 7,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 1056,
+      "x": 1523,
+      "y": 180000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1976
+    },
+    {
+      "id": 950,
+      "x": 1381,
+      "y": 197500,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 1068,
+      "x": 1611,
+      "y": 167900,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1964
+    },
+    {
+      "id": 986,
+      "x": 1164,
+      "y": 125000,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 614,
+      "x": 1120,
+      "y": 147000,
+      "quality": 5,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 570,
+      "x": 943,
+      "y": 135960,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1979
+    },
+    {
+      "id": 341,
+      "x": 1908,
+      "y": 202900,
+      "quality": 8,
+      "neighborhood": "Timber",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 1157,
+      "x": 1265,
+      "y": 179900,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1965
+    },
+    {
+      "id": 813,
+      "x": 1044,
+      "y": 55993,
+      "quality": 5,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1952
+    },
+    {
+      "id": 726,
+      "x": 864,
+      "y": 120500,
+      "quality": 4,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 169,
+      "x": 1720,
+      "y": 183500,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 521,
+      "x": 1294,
+      "y": 106250,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1900
+    },
+    {
+      "id": 494,
+      "x": 1269,
+      "y": 155000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1960
+    },
+    {
+      "id": 959,
+      "x": 1337,
+      "y": 185000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 665,
+      "x": 2097,
+      "y": 423000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 236,
+      "x": 987,
+      "y": 89500,
+      "quality": 6,
+      "neighborhood": "BrDale",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 156,
+      "x": 1096,
+      "y": 79000,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1924
+    },
+    {
+      "id": 111,
+      "x": 1855,
+      "y": 136900,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 1095,
+      "x": 936,
+      "y": 129000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 847,
+      "x": 1775,
+      "y": 213000,
+      "quality": 7,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1993
+    },
+    {
+      "id": 191,
+      "x": 2727,
+      "y": 315000,
+      "quality": 8,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1932
+    },
+    {
+      "id": 802,
+      "x": 1196,
+      "y": 109900,
+      "quality": 4,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1916
+    },
+    {
+      "id": 288,
+      "x": 858,
+      "y": 88000,
+      "quality": 4,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 313,
+      "x": 1118,
+      "y": 119900,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1939
+    },
+    {
+      "id": 1439,
+      "x": 1236,
+      "y": 149700,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 1324,
+      "x": 708,
+      "y": 82500,
+      "quality": 4,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1940
+    },
+    {
+      "id": 225,
+      "x": 2392,
+      "y": 386250,
+      "quality": 10,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 1267,
+      "x": 1889,
+      "y": 122000,
+      "quality": 7,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 1363,
+      "x": 1738,
+      "y": 104900,
+      "quality": 4,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 425,
+      "x": 1196,
+      "y": 139000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 689,
+      "x": 1419,
+      "y": 392000,
+      "quality": 8,
+      "neighborhood": "StoneBr",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 1290,
+      "x": 1970,
+      "y": 281000,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 800,
+      "x": 1768,
+      "y": 175000,
+      "quality": 5,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1937
+    },
+    {
+      "id": 476,
+      "x": 970,
+      "y": 132500,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1963
+    },
+    {
+      "id": 639,
+      "x": 796,
+      "y": 85000,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 744,
+      "x": 1464,
+      "y": 175000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1963
+    },
+    {
+      "id": 247,
+      "x": 1928,
+      "y": 137000,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 537,
+      "x": 1724,
+      "y": 188000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1998
+    },
+    {
+      "id": 305,
+      "x": 3493,
+      "y": 295000,
+      "quality": 7,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1880
+    },
+    {
+      "id": 538,
+      "x": 864,
+      "y": 111250,
+      "quality": 4,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 656,
+      "x": 1092,
+      "y": 88000,
+      "quality": 6,
+      "neighborhood": "BrDale",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 1215,
+      "x": 999,
+      "y": 134500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1962
+    },
+    {
+      "id": 318,
+      "x": 1959,
+      "y": 270000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 168,
+      "x": 2161,
+      "y": 325624,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 1443,
+      "x": 2007,
+      "y": 310000,
+      "quality": 10,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2008
+    },
+    {
+      "id": 1272,
+      "x": 1489,
+      "y": 185750,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1968
+    },
+    {
+      "id": 1123,
+      "x": 960,
+      "y": 112000,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 519,
+      "x": 1796,
+      "y": 211000,
+      "quality": 6,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1998
+    },
+    {
+      "id": 592,
+      "x": 2296,
+      "y": 451950,
+      "quality": 10,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2008
+    },
+    {
+      "id": 1071,
+      "x": 1048,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 431,
+      "x": 987,
+      "y": 85400,
+      "quality": 6,
+      "neighborhood": "BrDale",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 204,
+      "x": 848,
+      "y": 149000,
+      "quality": 6,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 968,
+      "x": 1098,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1955
+    },
+    {
+      "id": 565,
+      "x": 2295,
+      "y": 268000,
+      "quality": 7,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1992
+    },
+    {
+      "id": 642,
+      "x": 1929,
+      "y": 226000,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2001
+    },
+    {
+      "id": 710,
+      "x": 904,
+      "y": 109900,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1966
+    },
+    {
+      "id": 157,
+      "x": 1040,
+      "y": 109500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 972,
+      "x": 1626,
+      "y": 173000,
+      "quality": 7,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 77,
+      "x": 952,
+      "y": 135750,
+      "quality": 4,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 1316,
+      "x": 2112,
+      "y": 206900,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1969
+    },
+    {
+      "id": 1006,
+      "x": 985,
+      "y": 149900,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 1427,
+      "x": 2127,
+      "y": 271000,
+      "quality": 7,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1994
+    },
+    {
+      "id": 777,
+      "x": 1614,
+      "y": 221500,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 429,
+      "x": 1208,
+      "y": 195400,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 551,
+      "x": 1069,
+      "y": 140000,
+      "quality": 6,
+      "neighborhood": "NPkVill",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 1301,
+      "x": 1983,
+      "y": 225000,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1999
+    },
+    {
+      "id": 1386,
+      "x": 1154,
+      "y": 125500,
+      "quality": 4,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1922
+    },
+    {
+      "id": 325,
+      "x": 2978,
+      "y": 242000,
+      "quality": 7,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1967
+    },
+    {
+      "id": 702,
+      "x": 1164,
+      "y": 140000,
+      "quality": 7,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1969
+    },
+    {
+      "id": 413,
+      "x": 1478,
+      "y": 222000,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2009
+    },
+    {
+      "id": 1329,
+      "x": 2792,
+      "y": 256000,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 943,
+      "x": 1440,
+      "y": 150000,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 658,
+      "x": 1502,
+      "y": 149000,
+      "quality": 7,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1931
+    },
+    {
+      "id": 741,
+      "x": 1432,
+      "y": 132000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 167,
+      "x": 1867,
+      "y": 190000,
+      "quality": 5,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1955
+    },
+    {
+      "id": 552,
+      "x": 928,
+      "y": 112500,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 433,
+      "x": 1365,
+      "y": 122500,
+      "quality": 5,
+      "neighborhood": "BrDale",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 1338,
+      "x": 693,
+      "y": 52500,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1941
+    },
+    {
+      "id": 1083,
+      "x": 1459,
+      "y": 192000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 438,
+      "x": 904,
+      "y": 119000,
+      "quality": 6,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1926
+    },
+    {
+      "id": 1366,
+      "x": 1674,
+      "y": 216000,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 131,
+      "x": 2157,
+      "y": 226000,
+      "quality": 7,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1966
+    },
+    {
+      "id": 522,
+      "x": 1244,
+      "y": 150000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 568,
+      "x": 1535,
+      "y": 214000,
+      "quality": 7,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 132,
+      "x": 2054,
+      "y": 244000,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 1050,
+      "x": 930,
+      "y": 84900,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1946
+    },
+    {
+      "id": 516,
+      "x": 2020,
+      "y": 402861,
+      "quality": 10,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2009
+    },
+    {
+      "id": 412,
+      "x": 1056,
+      "y": 145000,
+      "quality": 5,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1955
+    },
+    {
+      "id": 187,
+      "x": 1217,
+      "y": 173000,
+      "quality": 7,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1990
+    },
+    {
+      "id": 67,
+      "x": 2207,
+      "y": 180000,
+      "quality": 7,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 1259,
+      "x": 1166,
+      "y": 190000,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 688,
+      "x": 1102,
+      "y": 148800,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 669,
+      "x": 1437,
+      "y": 168000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 1051,
+      "x": 1302,
+      "y": 176485,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 105,
+      "x": 1818,
+      "y": 169500,
+      "quality": 7,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1931
+    },
+    {
+      "id": 1387,
+      "x": 2784,
+      "y": 250000,
+      "quality": 7,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1978
+    },
+    {
+      "id": 272,
+      "x": 1363,
+      "y": 241500,
+      "quality": 7,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 545,
+      "x": 1496,
+      "y": 179665,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1325,
+      "x": 1795,
+      "y": 147000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1088,
+      "x": 1953,
+      "y": 252000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 631,
+      "x": 1750,
+      "y": 124000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1880
+    },
+    {
+      "id": 1284,
+      "x": 1824,
+      "y": 139000,
+      "quality": 6,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 1332,
+      "x": 954,
+      "y": 132500,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1976
+    },
+    {
+      "id": 636,
+      "x": 3395,
+      "y": 200000,
+      "quality": 6,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1914
+    },
+    {
+      "id": 160,
+      "x": 2462,
+      "y": 320000,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 815,
+      "x": 1250,
+      "y": 116000,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1918
+    },
+    {
+      "id": 1155,
+      "x": 1820,
+      "y": 201800,
+      "quality": 7,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1965
+    },
+    {
+      "id": 118,
+      "x": 1125,
+      "y": 155000,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1225,
+      "x": 1490,
+      "y": 184000,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 779,
+      "x": 2020,
+      "y": 144000,
+      "quality": 5,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 821,
+      "x": 1640,
+      "y": 183000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 426,
+      "x": 1389,
+      "y": 135000,
+      "quality": 7,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1946
+    },
+    {
+      "id": 450,
+      "x": 1183,
+      "y": 120000,
+      "quality": 3,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1948
+    },
+    {
+      "id": 581,
+      "x": 1429,
+      "y": 181900,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1960
+    },
+    {
+      "id": 949,
+      "x": 1776,
+      "y": 192500,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 1368,
+      "x": 1475,
+      "y": 127000,
+      "quality": 5,
+      "neighborhood": "MeadowV",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 70,
+      "x": 2287,
+      "y": 225000,
+      "quality": 7,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1953
+    },
+    {
+      "id": 185,
+      "x": 1252,
+      "y": 127000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1908
+    },
+    {
+      "id": 1391,
+      "x": 1525,
+      "y": 235000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 1355,
+      "x": 1865,
+      "y": 235000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 861,
+      "x": 1426,
+      "y": 189950,
+      "quality": 7,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1918
+    },
+    {
+      "id": 14,
+      "x": 1494,
+      "y": 279500,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 452,
+      "x": 1533,
+      "y": 280000,
+      "quality": 7,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1975
+    },
+    {
+      "id": 1412,
+      "x": 1668,
+      "y": 140000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 1188,
+      "x": 1624,
+      "y": 262000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1994
+    },
+    {
+      "id": 811,
+      "x": 1309,
+      "y": 181000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1974
+    },
+    {
+      "id": 686,
+      "x": 2090,
+      "y": 207500,
+      "quality": 7,
+      "neighborhood": "StoneBr",
+      "yearBuilt": 1984
+    },
+    {
+      "id": 547,
+      "x": 1635,
+      "y": 210000,
+      "quality": 6,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1923
+    },
+    {
+      "id": 1073,
+      "x": 1456,
+      "y": 91500,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1948
+    },
+    {
+      "id": 74,
+      "x": 1086,
+      "y": 144900,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 1460,
+      "x": 1256,
+      "y": 147500,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1965
+    },
+    {
+      "id": 439,
+      "x": 694,
+      "y": 90350,
+      "quality": 5,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1913
+    },
+    {
+      "id": 449,
+      "x": 1376,
+      "y": 119500,
+      "quality": 6,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1937
+    },
+    {
+      "id": 588,
+      "x": 860,
+      "y": 137000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1982
+    },
+    {
+      "id": 397,
+      "x": 894,
+      "y": 123000,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 524,
+      "x": 4676,
+      "y": 184750,
+      "quality": 10,
+      "neighborhood": "Edwards",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 964,
+      "x": 1800,
+      "y": 239000,
+      "quality": 9,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 771,
+      "x": 858,
+      "y": 134900,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1982
+    },
+    {
+      "id": 461,
+      "x": 1935,
+      "y": 263435,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2009
+    },
+    {
+      "id": 435,
+      "x": 630,
+      "y": 81000,
+      "quality": 4,
+      "neighborhood": "MeadowV",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 211,
+      "x": 864,
+      "y": 98000,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1925
+    },
+    {
+      "id": 451,
+      "x": 813,
+      "y": 110000,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1930
+    },
+    {
+      "id": 517,
+      "x": 2119,
+      "y": 158000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 399,
+      "x": 1077,
+      "y": 67000,
+      "quality": 5,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 363,
+      "x": 1922,
+      "y": 198500,
+      "quality": 7,
+      "neighborhood": "Edwards",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 366,
+      "x": 1344,
+      "y": 147000,
+      "quality": 5,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 906,
+      "x": 1063,
+      "y": 128000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 804,
+      "x": 2822,
+      "y": 582933,
+      "quality": 9,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2008
+    },
+    {
+      "id": 1196,
+      "x": 1456,
+      "y": 176000,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 648,
+      "x": 1094,
+      "y": 155000,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1953
+    },
+    {
+      "id": 1063,
+      "x": 2337,
+      "y": 90000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1900
+    },
+    {
+      "id": 670,
+      "x": 1180,
+      "y": 137500,
+      "quality": 4,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1922
+    },
+    {
+      "id": 1265,
+      "x": 1337,
+      "y": 181000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1998
+    },
+    {
+      "id": 713,
+      "x": 1228,
+      "y": 189000,
+      "quality": 8,
+      "neighborhood": "StoneBr",
+      "yearBuilt": 1988
+    },
+    {
+      "id": 817,
+      "x": 1008,
+      "y": 137000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 26,
+      "x": 1600,
+      "y": 256300,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 418,
+      "x": 2624,
+      "y": 239000,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1918
+    },
+    {
+      "id": 306,
+      "x": 2000,
+      "y": 305900,
+      "quality": 8,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 663,
+      "x": 1392,
+      "y": 110000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1968
+    },
+    {
+      "id": 506,
+      "x": 1960,
+      "y": 124500,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1952
+    },
+    {
+      "id": 21,
+      "x": 2376,
+      "y": 325300,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1081,
+      "x": 1258,
+      "y": 145000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 1243,
+      "x": 1173,
+      "y": 170000,
+      "quality": 7,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1974
+    },
+    {
+      "id": 562,
+      "x": 1389,
+      "y": 170000,
+      "quality": 5,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1974
+    },
+    {
+      "id": 1291,
+      "x": 1152,
+      "y": 180500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1964
+    },
+    {
+      "id": 824,
+      "x": 1489,
+      "y": 139500,
+      "quality": 6,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1940
+    },
+    {
+      "id": 1028,
+      "x": 1646,
+      "y": 293077,
+      "quality": 8,
+      "neighborhood": "Timber",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 863,
+      "x": 1097,
+      "y": 152000,
+      "quality": 6,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1984
+    },
+    {
+      "id": 871,
+      "x": 894,
+      "y": 109500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1962
+    },
+    {
+      "id": 228,
+      "x": 987,
+      "y": 106000,
+      "quality": 6,
+      "neighborhood": "BrDale",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 566,
+      "x": 1647,
+      "y": 128000,
+      "quality": 6,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1915
+    },
+    {
+      "id": 812,
+      "x": 848,
+      "y": 144500,
+      "quality": 6,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 1192,
+      "x": 1441,
+      "y": 174000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 1999
+    },
+    {
+      "id": 460,
+      "x": 1203,
+      "y": 110000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 884,
+      "x": 2230,
+      "y": 118500,
+      "quality": 4,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1912
+    },
+    {
+      "id": 1133,
+      "x": 2210,
+      "y": 117500,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1880
+    },
+    {
+      "id": 210,
+      "x": 1092,
+      "y": 145000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1964
+    },
+    {
+      "id": 188,
+      "x": 1656,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1916
+    },
+    {
+      "id": 608,
+      "x": 2008,
+      "y": 225000,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1948
+    },
+    {
+      "id": 1321,
+      "x": 1478,
+      "y": 156500,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 659,
+      "x": 1458,
+      "y": 97500,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1948
+    },
+    {
+      "id": 330,
+      "x": 1192,
+      "y": 78000,
+      "quality": 5,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 1304,
+      "x": 1616,
+      "y": 232000,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 281,
+      "x": 1982,
+      "y": 228500,
+      "quality": 7,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1989
+    },
+    {
+      "id": 1183,
+      "x": 4476,
+      "y": 745000,
+      "quality": 10,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1996
+    },
+    {
+      "id": 593,
+      "x": 816,
+      "y": 138000,
+      "quality": 5,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1982
+    },
+    {
+      "id": 685,
+      "x": 1839,
+      "y": 221000,
+      "quality": 7,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1998
+    },
+    {
+      "id": 720,
+      "x": 971,
+      "y": 128500,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1969
+    },
+    {
+      "id": 984,
+      "x": 2290,
+      "y": 255900,
+      "quality": 8,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 1100,
+      "x": 1601,
+      "y": 157000,
+      "quality": 7,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1978
+    },
+    {
+      "id": 282,
+      "x": 1262,
+      "y": 185000,
+      "quality": 6,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 830,
+      "x": 1223,
+      "y": 147400,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 751,
+      "x": 1140,
+      "y": 96500,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 1414,
+      "x": 1844,
+      "y": 257000,
+      "quality": 8,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1210,
+      "x": 1660,
+      "y": 290000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1359,
+      "x": 1573,
+      "y": 177500,
+      "quality": 6,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 1106,
+      "x": 2622,
+      "y": 325000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1994
+    },
+    {
+      "id": 996,
+      "x": 1230,
+      "y": 121600,
+      "quality": 4,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1946
+    },
+    {
+      "id": 146,
+      "x": 1709,
+      "y": 130000,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 480,
+      "x": 1131,
+      "y": 89471,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1937
+    },
+    {
+      "id": 814,
+      "x": 1442,
+      "y": 157900,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1958
+    },
+    {
+      "id": 508,
+      "x": 1218,
+      "y": 208300,
+      "quality": 6,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2009
+    },
+    {
+      "id": 374,
+      "x": 1319,
+      "y": 123000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1953
+    },
+    {
+      "id": 163,
+      "x": 1541,
+      "y": 220000,
+      "quality": 7,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 333,
+      "x": 1629,
+      "y": 284000,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 154,
+      "x": 1252,
+      "y": 235000,
+      "quality": 6,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1960
+    },
+    {
+      "id": 536,
+      "x": 1347,
+      "y": 107500,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 322,
+      "x": 2468,
+      "y": 354000,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 1153,
+      "x": 1811,
+      "y": 230000,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 1132,
+      "x": 974,
+      "y": 93500,
+      "quality": 5,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1991
+    },
+    {
+      "id": 121,
+      "x": 988,
+      "y": 180000,
+      "quality": 6,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1969
+    },
+    {
+      "id": 1091,
+      "x": 1040,
+      "y": 92900,
+      "quality": 3,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 1172,
+      "x": 1261,
+      "y": 163000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1958
+    },
+    {
+      "id": 85,
+      "x": 1474,
+      "y": 168500,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1995
+    },
+    {
+      "id": 1244,
+      "x": 2076,
+      "y": 465000,
+      "quality": 10,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1313,
+      "x": 2810,
+      "y": 302000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1990
+    },
+    {
+      "id": 18,
+      "x": 1296,
+      "y": 90000,
+      "quality": 4,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1967
+    },
+    {
+      "id": 1345,
+      "x": 1456,
+      "y": 155835,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1376,
+      "x": 1571,
+      "y": 239000,
+      "quality": 8,
+      "neighborhood": "Timber",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 862,
+      "x": 1039,
+      "y": 131500,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1965
+    },
+    {
+      "id": 86,
+      "x": 2417,
+      "y": 260000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1991
+    },
+    {
+      "id": 1389,
+      "x": 1746,
+      "y": 377500,
+      "quality": 9,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 357,
+      "x": 1167,
+      "y": 173000,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1992
+    },
+    {
+      "id": 619,
+      "x": 1828,
+      "y": 314813,
+      "quality": 9,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 467,
+      "x": 1277,
+      "y": 167000,
+      "quality": 7,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 590,
+      "x": 935,
+      "y": 79500,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1930
+    },
+    {
+      "id": 46,
+      "x": 1752,
+      "y": 319900,
+      "quality": 9,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1432,
+      "x": 958,
+      "y": 143750,
+      "quality": 6,
+      "neighborhood": "NPkVill",
+      "yearBuilt": 1976
+    },
+    {
+      "id": 1398,
+      "x": 1513,
+      "y": 137500,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 148,
+      "x": 2035,
+      "y": 222500,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2001
+    },
+    {
+      "id": 1274,
+      "x": 1357,
+      "y": 177000,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1959
+    },
+    {
+      "id": 392,
+      "x": 1961,
+      "y": 215000,
+      "quality": 6,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 2001
+    },
+    {
+      "id": 110,
+      "x": 1844,
+      "y": 190000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 520,
+      "x": 2080,
+      "y": 234000,
+      "quality": 7,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1926
+    },
+    {
+      "id": 263,
+      "x": 1212,
+      "y": 151000,
+      "quality": 6,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1977
+    },
+    {
+      "id": 1305,
+      "x": 1708,
+      "y": 130000,
+      "quality": 7,
+      "neighborhood": "Edwards",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 677,
+      "x": 1774,
+      "y": 87000,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1900
+    },
+    {
+      "id": 488,
+      "x": 1484,
+      "y": 175000,
+      "quality": 5,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 64,
+      "x": 1710,
+      "y": 140000,
+      "quality": 7,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1921
+    },
+    {
+      "id": 400,
+      "x": 1550,
+      "y": 241000,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 95,
+      "x": 1786,
+      "y": 204750,
+      "quality": 6,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1997
+    },
+    {
+      "id": 475,
+      "x": 1652,
+      "y": 251000,
+      "quality": 8,
+      "neighborhood": "StoneBr",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 657,
+      "x": 1053,
+      "y": 145500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1959
+    },
+    {
+      "id": 622,
+      "x": 2614,
+      "y": 240000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1974
+    },
+    {
+      "id": 1,
+      "x": 1710,
+      "y": 208500,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 1186,
+      "x": 1221,
+      "y": 104900,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1924
+    },
+    {
+      "id": 616,
+      "x": 1054,
+      "y": 137500,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1963
+    },
+    {
+      "id": 607,
+      "x": 1040,
+      "y": 152000,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1996
+    },
+    {
+      "id": 401,
+      "x": 1288,
+      "y": 245500,
+      "quality": 8,
+      "neighborhood": "Veenker",
+      "yearBuilt": 1996
+    },
+    {
+      "id": 164,
+      "x": 882,
+      "y": 103200,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1956
+    },
+    {
+      "id": 1307,
+      "x": 1368,
+      "y": 202500,
+      "quality": 7,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 262,
+      "x": 2574,
+      "y": 276000,
+      "quality": 8,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 129,
+      "x": 1348,
+      "y": 155000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1966
+    },
+    {
+      "id": 1039,
+      "x": 1344,
+      "y": 97000,
+      "quality": 4,
+      "neighborhood": "MeadowV",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 264,
+      "x": 1316,
+      "y": 130000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1929
+    },
+    {
+      "id": 1253,
+      "x": 874,
+      "y": 130000,
+      "quality": 5,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1968
+    },
+    {
+      "id": 914,
+      "x": 2002,
+      "y": 145000,
+      "quality": 5,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1949
+    },
+    {
+      "id": 1271,
+      "x": 1524,
+      "y": 260000,
+      "quality": 7,
+      "neighborhood": "ClearCr",
+      "yearBuilt": 1979
+    },
+    {
+      "id": 277,
+      "x": 1560,
+      "y": 201000,
+      "quality": 7,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 773,
+      "x": 1117,
+      "y": 107000,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1976
+    },
+    {
+      "id": 1126,
+      "x": 1005,
+      "y": 115000,
+      "quality": 4,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1955
+    },
+    {
+      "id": 736,
+      "x": 1768,
+      "y": 163000,
+      "quality": 7,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1914
+    },
+    {
+      "id": 1438,
+      "x": 1932,
+      "y": 394617,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2008
+    },
+    {
+      "id": 256,
+      "x": 2291,
+      "y": 230000,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1999
+    },
+    {
+      "id": 124,
+      "x": 1199,
+      "y": 153900,
+      "quality": 6,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1993
+    },
+    {
+      "id": 496,
+      "x": 720,
+      "y": 34900,
+      "quality": 4,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1920
+    },
+    {
+      "id": 1127,
+      "x": 1555,
+      "y": 174000,
+      "quality": 7,
+      "neighborhood": "Blmngtn",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 36,
+      "x": 2452,
+      "y": 309000,
+      "quality": 8,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 300,
+      "x": 1152,
+      "y": 158500,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 147,
+      "x": 875,
+      "y": 105000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1931
+    },
+    {
+      "id": 1298,
+      "x": 1072,
+      "y": 140000,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 787,
+      "x": 1652,
+      "y": 139000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1915
+    },
+    {
+      "id": 189,
+      "x": 1224,
+      "y": 153337,
+      "quality": 5,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1979
+    },
+    {
+      "id": 119,
+      "x": 3222,
+      "y": 320000,
+      "quality": 7,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1990
+    },
+    {
+      "id": 697,
+      "x": 616,
+      "y": 89000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1921
+    },
+    {
+      "id": 1078,
+      "x": 1096,
+      "y": 138800,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1969
+    },
+    {
+      "id": 206,
+      "x": 1442,
+      "y": 180500,
+      "quality": 7,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 1990
+    },
+    {
+      "id": 793,
+      "x": 2013,
+      "y": 269790,
+      "quality": 7,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1996
+    },
+    {
+      "id": 561,
+      "x": 1392,
+      "y": 121500,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 1191,
+      "x": 1622,
+      "y": 168000,
+      "quality": 4,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1961
+    },
+    {
+      "id": 915,
+      "x": 1224,
+      "y": 173733,
+      "quality": 6,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2009
+    },
+    {
+      "id": 230,
+      "x": 1555,
+      "y": 192500,
+      "quality": 7,
+      "neighborhood": "Blmngtn",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1396,
+      "x": 2482,
+      "y": 281213,
+      "quality": 8,
+      "neighborhood": "Timber",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 222,
+      "x": 2267,
+      "y": 200000,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 379,
+      "x": 1856,
+      "y": 394432,
+      "quality": 9,
+      "neighborhood": "StoneBr",
+      "yearBuilt": 2010
+    },
+    {
+      "id": 617,
+      "x": 1509,
+      "y": 183200,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 1010,
+      "x": 1522,
+      "y": 102000,
+      "quality": 5,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1926
+    },
+    {
+      "id": 560,
+      "x": 1557,
+      "y": 234000,
+      "quality": 7,
+      "neighborhood": "Blmngtn",
+      "yearBuilt": 2003
+    },
+    {
+      "id": 1034,
+      "x": 1654,
+      "y": 230000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 907,
+      "x": 1636,
+      "y": 255000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 789,
+      "x": 901,
+      "y": 107900,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 772,
+      "x": 1220,
+      "y": 102000,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1951
+    },
+    {
+      "id": 1024,
+      "x": 1504,
+      "y": 191000,
+      "quality": 7,
+      "neighborhood": "Blmngtn",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 958,
+      "x": 1057,
+      "y": 132000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1962
+    },
+    {
+      "id": 1279,
+      "x": 2031,
+      "y": 237000,
+      "quality": 8,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 695,
+      "x": 1539,
+      "y": 141500,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1936
+    },
+    {
+      "id": 7,
+      "x": 1694,
+      "y": 307000,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 114,
+      "x": 2259,
+      "y": 217000,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1953
+    },
+    {
+      "id": 87,
+      "x": 1560,
+      "y": 174000,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1309,
+      "x": 1122,
+      "y": 147000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1948
+    },
+    {
+      "id": 252,
+      "x": 1625,
+      "y": 235000,
+      "quality": 8,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 606,
+      "x": 1986,
+      "y": 205000,
+      "quality": 7,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1965
+    },
+    {
+      "id": 23,
+      "x": 1795,
+      "y": 230000,
+      "quality": 8,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 845,
+      "x": 1416,
+      "y": 153900,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1915
+    },
+    {
+      "id": 1141,
+      "x": 952,
+      "y": 139000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1951
+    },
+    {
+      "id": 1406,
+      "x": 1646,
+      "y": 275000,
+      "quality": 8,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 82,
+      "x": 1337,
+      "y": 153500,
+      "quality": 6,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1998
+    },
+    {
+      "id": 655,
+      "x": 2113,
+      "y": 350000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 1995
+    },
+    {
+      "id": 511,
+      "x": 1363,
+      "y": 164900,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1951
+    },
+    {
+      "id": 126,
+      "x": 754,
+      "y": 84500,
+      "quality": 6,
+      "neighborhood": "IDOTRR",
+      "yearBuilt": 1935
+    },
+    {
+      "id": 1086,
+      "x": 996,
+      "y": 147000,
+      "quality": 6,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1992
+    },
+    {
+      "id": 584,
+      "x": 2775,
+      "y": 325000,
+      "quality": 10,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1893
+    },
+    {
+      "id": 477,
+      "x": 1493,
+      "y": 208900,
+      "quality": 6,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1997
+    },
+    {
+      "id": 1403,
+      "x": 1294,
+      "y": 193879,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 1187,
+      "x": 1699,
+      "y": 95000,
+      "quality": 3,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1900
+    },
+    {
+      "id": 402,
+      "x": 1310,
+      "y": 164990,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1055,
+      "x": 1989,
+      "y": 255000,
+      "quality": 8,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2002
+    },
+    {
+      "id": 629,
+      "x": 2080,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1969
+    },
+    {
+      "id": 900,
+      "x": 1236,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1961
+    },
+    {
+      "id": 1163,
+      "x": 894,
+      "y": 129000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1968
+    },
+    {
+      "id": 368,
+      "x": 1431,
+      "y": 165000,
+      "quality": 6,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1962
+    },
+    {
+      "id": 1289,
+      "x": 1659,
+      "y": 278000,
+      "quality": 8,
+      "neighborhood": "StoneBr",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 951,
+      "x": 864,
+      "y": 129000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 923,
+      "x": 1316,
+      "y": 169990,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 65,
+      "x": 2034,
+      "y": 219500,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1997
+    },
+    {
+      "id": 652,
+      "x": 1510,
+      "y": 108000,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1940
+    },
+    {
+      "id": 1315,
+      "x": 948,
+      "y": 119000,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1954
+    },
+    {
+      "id": 939,
+      "x": 1962,
+      "y": 239799,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 533,
+      "x": 827,
+      "y": 107500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1955
+    },
+    {
+      "id": 664,
+      "x": 1181,
+      "y": 137500,
+      "quality": 4,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 839,
+      "x": 1099,
+      "y": 144000,
+      "quality": 5,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 1995
+    },
+    {
+      "id": 976,
+      "x": 1382,
+      "y": 165000,
+      "quality": 7,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 10,
+      "x": 1077,
+      "y": 118000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1939
+    },
+    {
+      "id": 1070,
+      "x": 893,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1949
+    },
+    {
+      "id": 1009,
+      "x": 1710,
+      "y": 240000,
+      "quality": 7,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 5,
+      "x": 2198,
+      "y": 250000,
+      "quality": 8,
+      "neighborhood": "NoRidge",
+      "yearBuilt": 2000
+    },
+    {
+      "id": 1337,
+      "x": 1656,
+      "y": 135000,
+      "quality": 5,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1973
+    },
+    {
+      "id": 1264,
+      "x": 1824,
+      "y": 180500,
+      "quality": 6,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1919
+    },
+    {
+      "id": 142,
+      "x": 1734,
+      "y": 260000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 1131,
+      "x": 1981,
+      "y": 135000,
+      "quality": 4,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1928
+    },
+    {
+      "id": 1206,
+      "x": 2196,
+      "y": 271900,
+      "quality": 7,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 1990
+    },
+    {
+      "id": 1409,
+      "x": 1363,
+      "y": 125500,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 251,
+      "x": 1306,
+      "y": 76500,
+      "quality": 3,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1940
+    },
+    {
+      "id": 1239,
+      "x": 1141,
+      "y": 142500,
+      "quality": 6,
+      "neighborhood": "SawyerW",
+      "yearBuilt": 2005
+    },
+    {
+      "id": 153,
+      "x": 1993,
+      "y": 190000,
+      "quality": 6,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1971
+    },
+    {
+      "id": 987,
+      "x": 1635,
+      "y": 117000,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1910
+    },
+    {
+      "id": 714,
+      "x": 960,
+      "y": 129000,
+      "quality": 4,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1970
+    },
+    {
+      "id": 734,
+      "x": 1144,
+      "y": 131400,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1961
+    },
+    {
+      "id": 321,
+      "x": 2596,
+      "y": 342643,
+      "quality": 9,
+      "neighborhood": "NridgHt",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 934,
+      "x": 1500,
+      "y": 190000,
+      "quality": 7,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 246,
+      "x": 1872,
+      "y": 241500,
+      "quality": 7,
+      "neighborhood": "NWAmes",
+      "yearBuilt": 1988
+    },
+    {
+      "id": 549,
+      "x": 825,
+      "y": 125000,
+      "quality": 5,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1955
+    },
+    {
+      "id": 1364,
+      "x": 1412,
+      "y": 156932,
+      "quality": 6,
+      "neighborhood": "Gilbert",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 672,
+      "x": 1369,
+      "y": 103600,
+      "quality": 6,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1925
+    },
+    {
+      "id": 643,
+      "x": 2704,
+      "y": 345000,
+      "quality": 8,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1972
+    },
+    {
+      "id": 514,
+      "x": 1080,
+      "y": 134000,
+      "quality": 6,
+      "neighborhood": "Mitchel",
+      "yearBuilt": 1983
+    },
+    {
+      "id": 735,
+      "x": 948,
+      "y": 108000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1968
+    },
+    {
+      "id": 983,
+      "x": 1266,
+      "y": 159895,
+      "quality": 7,
+      "neighborhood": "Blmngtn",
+      "yearBuilt": 2007
+    },
+    {
+      "id": 48,
+      "x": 1656,
+      "y": 249700,
+      "quality": 8,
+      "neighborhood": "Somerst",
+      "yearBuilt": 2006
+    },
+    {
+      "id": 393,
+      "x": 882,
+      "y": 106500,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1959
+    },
+    {
+      "id": 762,
+      "x": 1301,
+      "y": 100000,
+      "quality": 5,
+      "neighborhood": "BrkSide",
+      "yearBuilt": 1924
+    },
+    {
+      "id": 822,
+      "x": 936,
+      "y": 93000,
+      "quality": 4,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1953
+    },
+    {
+      "id": 557,
+      "x": 1092,
+      "y": 141000,
+      "quality": 5,
+      "neighborhood": "NAmes",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 199,
+      "x": 2229,
+      "y": 104000,
+      "quality": 6,
+      "neighborhood": "OldTown",
+      "yearBuilt": 1912
+    },
+    {
+      "id": 682,
+      "x": 1520,
+      "y": 159434,
+      "quality": 5,
+      "neighborhood": "SWISU",
+      "yearBuilt": 1932
+    },
+    {
+      "id": 1054,
+      "x": 1526,
+      "y": 144500,
+      "quality": 5,
+      "neighborhood": "Edwards",
+      "yearBuilt": 1957
+    },
+    {
+      "id": 836,
+      "x": 1067,
+      "y": 128000,
+      "quality": 4,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1950
+    },
+    {
+      "id": 464,
+      "x": 1660,
+      "y": 188700,
+      "quality": 6,
+      "neighborhood": "Crawfor",
+      "yearBuilt": 1934
+    },
+    {
+      "id": 1082,
+      "x": 1040,
+      "y": 133000,
+      "quality": 5,
+      "neighborhood": "Sawyer",
+      "yearBuilt": 1963
+    },
+    {
+      "id": 691,
+      "x": 848,
+      "y": 141000,
+      "quality": 6,
+      "neighborhood": "CollgCr",
+      "yearBuilt": 2004
+    },
+    {
+      "id": 573,
+      "x": 1692,
+      "y": 224500,
+      "quality": 7,
+      "neighborhood": "Timber",
+      "yearBuilt": 2009
+    }
+  ],
+  "decade_stats": [
+    {
+      "decade": "1870s",
+      "count": 1,
+      "mean": 94000.0,
+      "median": 94000.0
+    },
+    {
+      "decade": "1880s",
+      "count": 5,
+      "mean": 194095.8,
+      "median": 168000.0
+    },
+    {
+      "decade": "1890s",
+      "count": 4,
+      "mean": 257725.0,
+      "median": 224950.0
+    },
+    {
+      "decade": "1900s",
+      "count": 13,
+      "mean": 134571.23,
+      "median": 135000.0
+    },
+    {
+      "decade": "1910s",
+      "count": 52,
+      "mean": 132424.83,
+      "median": 128750.0
+    },
+    {
+      "decade": "1920s",
+      "count": 75,
+      "mean": 126981.07,
+      "median": 117000.0
+    },
+    {
+      "decade": "1930s",
+      "count": 40,
+      "mean": 141766.38,
+      "median": 124250.0
+    },
+    {
+      "decade": "1940s",
+      "count": 67,
+      "mean": 125755.39,
+      "median": 122900.0
+    },
+    {
+      "decade": "1950s",
+      "count": 136,
+      "mean": 143565.62,
+      "median": 139000.0
+    },
+    {
+      "decade": "1960s",
+      "count": 146,
+      "mean": 151397.68,
+      "median": 143950.0
+    },
+    {
+      "decade": "1970s",
+      "count": 146,
+      "mean": 156194.02,
+      "median": 148250.0
+    },
+    {
+      "decade": "1980s",
+      "count": 48,
+      "mean": 191539.58,
+      "median": 178500.0
+    },
+    {
+      "decade": "1990s",
+      "count": 130,
+      "mean": 233993.75,
+      "median": 207600.0
+    },
+    {
+      "decade": "2000s",
+      "count": 304,
+      "mean": 240702.52,
+      "median": 223000.0
+    },
+    {
+      "decade": "2010s",
+      "count": 1,
+      "mean": 394432.0,
+      "median": 394432.0
+    }
+  ],
+  "top_correlations": [
+    {
+      "feature": "OverallQual",
+      "correlation": 0.7892
+    },
+    {
+      "feature": "GrLivArea",
+      "correlation": 0.7073
+    },
+    {
+      "feature": "GarageCars",
+      "correlation": 0.6283
+    },
+    {
+      "feature": "GarageArea",
+      "correlation": 0.619
+    },
+    {
+      "feature": "TotalBsmtSF",
+      "correlation": 0.595
+    },
+    {
+      "feature": "1stFlrSF",
+      "correlation": 0.5876
+    },
+    {
+      "feature": "FullBath",
+      "correlation": 0.555
+    },
+    {
+      "feature": "TotRmsAbvGrd",
+      "correlation": 0.5284
+    },
+    {
+      "feature": "YearBuilt",
+      "correlation": 0.5144
+    },
+    {
+      "feature": "Decade",
+      "correlation": 0.5086
+    },
+    {
+      "feature": "YearRemodAdd",
+      "correlation": 0.5078
+    },
+    {
+      "feature": "GarageYrBlt",
+      "correlation": 0.4743
+    },
+    {
+      "feature": "MasVnrArea",
+      "correlation": 0.4664
+    },
+    {
+      "feature": "Fireplaces",
+      "correlation": 0.4596
+    },
+    {
+      "feature": "BsmtFinSF1",
+      "correlation": 0.3629
+    },
+    {
+      "feature": "LotFrontage",
+      "correlation": 0.3413
+    },
+    {
+      "feature": "OpenPorchSF",
+      "correlation": 0.3395
+    },
+    {
+      "feature": "2ndFlrSF",
+      "correlation": 0.3304
+    },
+    {
+      "feature": "WoodDeckSF",
+      "correlation": 0.3154
+    },
+    {
+      "feature": "HalfBath",
+      "correlation": 0.2956
+    }
+  ],
+  "test_preview": [
+    {
+      "id": 337,
+      "neighborhood": "StoneBr",
+      "overallQual": 9,
+      "yearBuilt": 2005,
+      "grLivArea": 1922,
+      "totalBsmtSF": 1922,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 364568.56
+    },
+    {
+      "id": 1018,
+      "neighborhood": "StoneBr",
+      "overallQual": 8,
+      "yearBuilt": 1984,
+      "grLivArea": 1360,
+      "totalBsmtSF": 1220,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 197439.91
+    },
+    {
+      "id": 929,
+      "neighborhood": "CollgCr",
+      "overallQual": 8,
+      "yearBuilt": 2001,
+      "grLivArea": 1788,
+      "totalBsmtSF": 1753,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 244218.53
+    },
+    {
+      "id": 1148,
+      "neighborhood": "Crawfor",
+      "overallQual": 7,
+      "yearBuilt": 1941,
+      "grLivArea": 1564,
+      "totalBsmtSF": 704,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 180246.12
+    },
+    {
+      "id": 1227,
+      "neighborhood": "Somerst",
+      "overallQual": 6,
+      "yearBuilt": 2007,
+      "grLivArea": 1933,
+      "totalBsmtSF": 894,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 205246.25
+    },
+    {
+      "id": 650,
+      "neighborhood": "MeadowV",
+      "overallQual": 4,
+      "yearBuilt": 1970,
+      "grLivArea": 630,
+      "totalBsmtSF": 630,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 77874.11
+    },
+    {
+      "id": 1453,
+      "neighborhood": "Edwards",
+      "overallQual": 5,
+      "yearBuilt": 2005,
+      "grLivArea": 1072,
+      "totalBsmtSF": 547,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 132830.13
+    },
+    {
+      "id": 152,
+      "neighborhood": "NridgHt",
+      "overallQual": 8,
+      "yearBuilt": 2007,
+      "grLivArea": 1710,
+      "totalBsmtSF": 1710,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 309568.38
+    },
+    {
+      "id": 427,
+      "neighborhood": "SawyerW",
+      "overallQual": 7,
+      "yearBuilt": 1989,
+      "grLivArea": 1644,
+      "totalBsmtSF": 1518,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 242089.43
+    },
+    {
+      "id": 776,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1998,
+      "grLivArea": 1204,
+      "totalBsmtSF": 1204,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 160822.07
+    },
+    {
+      "id": 30,
+      "neighborhood": "BrkSide",
+      "overallQual": 4,
+      "yearBuilt": 1927,
+      "grLivArea": 520,
+      "totalBsmtSF": 520,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 63567.17
+    },
+    {
+      "id": 1425,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1958,
+      "grLivArea": 1344,
+      "totalBsmtSF": 1024,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 144788.78
+    },
+    {
+      "id": 423,
+      "neighborhood": "Mitchel",
+      "overallQual": 5,
+      "yearBuilt": 1954,
+      "grLivArea": 988,
+      "totalBsmtSF": 988,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 112770.53
+    },
+    {
+      "id": 1185,
+      "neighborhood": "Timber",
+      "overallQual": 5,
+      "yearBuilt": 1963,
+      "grLivArea": 1572,
+      "totalBsmtSF": 1572,
+      "garageCars": 3,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 181202.17
+    },
+    {
+      "id": 775,
+      "neighborhood": "NridgHt",
+      "overallQual": 8,
+      "yearBuilt": 2006,
+      "grLivArea": 1973,
+      "totalBsmtSF": 1935,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 290199.63
+    },
+    {
+      "id": 391,
+      "neighborhood": "Edwards",
+      "overallQual": 5,
+      "yearBuilt": 1900,
+      "grLivArea": 1367,
+      "totalBsmtSF": 861,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 125837.27
+    },
+    {
+      "id": 1408,
+      "neighborhood": "Mitchel",
+      "overallQual": 5,
+      "yearBuilt": 1985,
+      "grLivArea": 833,
+      "totalBsmtSF": 833,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 113710.19
+    },
+    {
+      "id": 513,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1958,
+      "grLivArea": 864,
+      "totalBsmtSF": 864,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 119937.04
+    },
+    {
+      "id": 1266,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 1999,
+      "grLivArea": 1452,
+      "totalBsmtSF": 691,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 173841.16
+    },
+    {
+      "id": 173,
+      "neighborhood": "StoneBr",
+      "overallQual": 7,
+      "yearBuilt": 1987,
+      "grLivArea": 1767,
+      "totalBsmtSF": 1064,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 211179.9
+    },
+    {
+      "id": 1150,
+      "neighborhood": "OldTown",
+      "overallQual": 7,
+      "yearBuilt": 1920,
+      "grLivArea": 1482,
+      "totalBsmtSF": 650,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 147390.95
+    },
+    {
+      "id": 797,
+      "neighborhood": "Sawyer",
+      "overallQual": 6,
+      "yearBuilt": 1977,
+      "grLivArea": 1285,
+      "totalBsmtSF": 660,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 149130.24
+    },
+    {
+      "id": 137,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1967,
+      "grLivArea": 1214,
+      "totalBsmtSF": 1214,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 143615.38
+    },
+    {
+      "id": 706,
+      "neighborhood": "IDOTRR",
+      "overallQual": 4,
+      "yearBuilt": 1930,
+      "grLivArea": 1092,
+      "totalBsmtSF": 0,
+      "garageCars": 0,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 66218.57
+    },
+    {
+      "id": 1377,
+      "neighborhood": "SWISU",
+      "overallQual": 6,
+      "yearBuilt": 1930,
+      "grLivArea": 790,
+      "totalBsmtSF": 768,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 95884.96
+    },
+    {
+      "id": 1177,
+      "neighborhood": "Mitchel",
+      "overallQual": 5,
+      "yearBuilt": 1984,
+      "grLivArea": 923,
+      "totalBsmtSF": 876,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 131286.73
+    },
+    {
+      "id": 1456,
+      "neighborhood": "Gilbert",
+      "overallQual": 6,
+      "yearBuilt": 1999,
+      "grLivArea": 1647,
+      "totalBsmtSF": 953,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 174842.09
+    },
+    {
+      "id": 369,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1954,
+      "grLivArea": 1268,
+      "totalBsmtSF": 1268,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 136221.88
+    },
+    {
+      "id": 1421,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1968,
+      "grLivArea": 1416,
+      "totalBsmtSF": 708,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 164592.37
+    },
+    {
+      "id": 999,
+      "neighborhood": "IDOTRR",
+      "overallQual": 3,
+      "yearBuilt": 1922,
+      "grLivArea": 1077,
+      "totalBsmtSF": 1007,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 76379.47
+    },
+    {
+      "id": 1217,
+      "neighborhood": "Sawyer",
+      "overallQual": 6,
+      "yearBuilt": 1978,
+      "grLivArea": 1902,
+      "totalBsmtSF": 0,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 132946.77
+    },
+    {
+      "id": 937,
+      "neighborhood": "SawyerW",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 1200,
+      "totalBsmtSF": 1176,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 184577.31
+    },
+    {
+      "id": 769,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1836,
+      "totalBsmtSF": 1860,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 212360.56
+    },
+    {
+      "id": 831,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1957,
+      "grLivArea": 1392,
+      "totalBsmtSF": 1392,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 164754.75
+    },
+    {
+      "id": 678,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1924,
+      "grLivArea": 792,
+      "totalBsmtSF": 768,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 109698.54
+    },
+    {
+      "id": 574,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 2000,
+      "grLivArea": 1430,
+      "totalBsmtSF": 384,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 170381.86
+    },
+    {
+      "id": 921,
+      "neighborhood": "SawyerW",
+      "overallQual": 6,
+      "yearBuilt": 1994,
+      "grLivArea": 1721,
+      "totalBsmtSF": 928,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 187801.0
+    },
+    {
+      "id": 1292,
+      "neighborhood": "BrDale",
+      "overallQual": 5,
+      "yearBuilt": 1972,
+      "grLivArea": 1302,
+      "totalBsmtSF": 630,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 112669.16
+    },
+    {
+      "id": 1277,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1972,
+      "grLivArea": 1395,
+      "totalBsmtSF": 723,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 163925.25
+    },
+    {
+      "id": 676,
+      "neighborhood": "NPkVill",
+      "overallQual": 6,
+      "yearBuilt": 1978,
+      "grLivArea": 1441,
+      "totalBsmtSF": 855,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 149713.84
+    },
+    {
+      "id": 108,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1948,
+      "grLivArea": 789,
+      "totalBsmtSF": 789,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 90685.26
+    },
+    {
+      "id": 424,
+      "neighborhood": "NoRidge",
+      "overallQual": 8,
+      "yearBuilt": 1998,
+      "grLivArea": 2630,
+      "totalBsmtSF": 1470,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 320613.51
+    },
+    {
+      "id": 823,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 1733,
+      "totalBsmtSF": 847,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 199457.32
+    },
+    {
+      "id": 1455,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1221,
+      "totalBsmtSF": 1221,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 187012.19
+    },
+    {
+      "id": 377,
+      "neighborhood": "CollgCr",
+      "overallQual": 5,
+      "yearBuilt": 1996,
+      "grLivArea": 914,
+      "totalBsmtSF": 870,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 128278.35
+    },
+    {
+      "id": 1256,
+      "neighborhood": "BrkSide",
+      "overallQual": 6,
+      "yearBuilt": 1931,
+      "grLivArea": 1367,
+      "totalBsmtSF": 884,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 132484.28
+    },
+    {
+      "id": 1120,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1959,
+      "grLivArea": 1040,
+      "totalBsmtSF": 1040,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 122965.23
+    },
+    {
+      "id": 265,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1925,
+      "grLivArea": 764,
+      "totalBsmtSF": 680,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 84316.56
+    },
+    {
+      "id": 1158,
+      "neighborhood": "NridgHt",
+      "overallQual": 7,
+      "yearBuilt": 2007,
+      "grLivArea": 1314,
+      "totalBsmtSF": 1314,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 207309.08
+    },
+    {
+      "id": 725,
+      "neighborhood": "Edwards",
+      "overallQual": 9,
+      "yearBuilt": 2007,
+      "grLivArea": 1698,
+      "totalBsmtSF": 1698,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 301535.72
+    },
+    {
+      "id": 1378,
+      "neighborhood": "Edwards",
+      "overallQual": 5,
+      "yearBuilt": 1941,
+      "grLivArea": 1604,
+      "totalBsmtSF": 984,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 130719.46
+    },
+    {
+      "id": 1139,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1977,
+      "grLivArea": 1567,
+      "totalBsmtSF": 1567,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 207931.31
+    },
+    {
+      "id": 122,
+      "neighborhood": "IDOTRR",
+      "overallQual": 4,
+      "yearBuilt": 1939,
+      "grLivArea": 1123,
+      "totalBsmtSF": 732,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 98130.96
+    },
+    {
+      "id": 515,
+      "neighborhood": "Crawfor",
+      "overallQual": 5,
+      "yearBuilt": 1926,
+      "grLivArea": 789,
+      "totalBsmtSF": 768,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 94526.38
+    },
+    {
+      "id": 518,
+      "neighborhood": "NoRidge",
+      "overallQual": 7,
+      "yearBuilt": 1996,
+      "grLivArea": 2344,
+      "totalBsmtSF": 1264,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 266742.66
+    },
+    {
+      "id": 1214,
+      "neighborhood": "Sawyer",
+      "overallQual": 4,
+      "yearBuilt": 1965,
+      "grLivArea": 960,
+      "totalBsmtSF": 648,
+      "garageCars": 1,
+      "fullBath": 0,
+      "bedroomAbvGr": 0,
+      "predictedPrice": 127192.17
+    },
+    {
+      "id": 443,
+      "neighborhood": "BrkSide",
+      "overallQual": 5,
+      "yearBuilt": 1930,
+      "grLivArea": 1573,
+      "totalBsmtSF": 1078,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 146036.32
+    },
+    {
+      "id": 903,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 1509,
+      "totalBsmtSF": 783,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 183234.36
+    },
+    {
+      "id": 53,
+      "neighborhood": "IDOTRR",
+      "overallQual": 5,
+      "yearBuilt": 1963,
+      "grLivArea": 816,
+      "totalBsmtSF": 816,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 98512.51
+    },
+    {
+      "id": 469,
+      "neighborhood": "NridgHt",
+      "overallQual": 8,
+      "yearBuilt": 2006,
+      "grLivArea": 1634,
+      "totalBsmtSF": 1626,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 243708.67
+    },
+    {
+      "id": 76,
+      "neighborhood": "MeadowV",
+      "overallQual": 4,
+      "yearBuilt": 1973,
+      "grLivArea": 988,
+      "totalBsmtSF": 462,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 97829.47
+    },
+    {
+      "id": 1142,
+      "neighborhood": "NWAmes",
+      "overallQual": 5,
+      "yearBuilt": 1976,
+      "grLivArea": 1868,
+      "totalBsmtSF": 780,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 179972.8
+    },
+    {
+      "id": 1222,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1968,
+      "grLivArea": 1211,
+      "totalBsmtSF": 952,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 123478.86
+    },
+    {
+      "id": 851,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 2003,
+      "grLivArea": 848,
+      "totalBsmtSF": 848,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 141427.84
+    },
+    {
+      "id": 334,
+      "neighborhood": "NridgHt",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1358,
+      "totalBsmtSF": 1358,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 198587.08
+    },
+    {
+      "id": 1008,
+      "neighborhood": "MeadowV",
+      "overallQual": 4,
+      "yearBuilt": 1970,
+      "grLivArea": 1092,
+      "totalBsmtSF": 546,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 85087.19
+    },
+    {
+      "id": 19,
+      "neighborhood": "SawyerW",
+      "overallQual": 5,
+      "yearBuilt": 2004,
+      "grLivArea": 1114,
+      "totalBsmtSF": 1114,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 153376.02
+    },
+    {
+      "id": 339,
+      "neighborhood": "NWAmes",
+      "overallQual": 7,
+      "yearBuilt": 1984,
+      "grLivArea": 1621,
+      "totalBsmtSF": 1208,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 214032.55
+    },
+    {
+      "id": 1118,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1967,
+      "grLivArea": 894,
+      "totalBsmtSF": 894,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 134170.45
+    },
+    {
+      "id": 834,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1964,
+      "grLivArea": 1516,
+      "totalBsmtSF": 1516,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 160595.31
+    },
+    {
+      "id": 1176,
+      "neighborhood": "NoRidge",
+      "overallQual": 8,
+      "yearBuilt": 1992,
+      "grLivArea": 2872,
+      "totalBsmtSF": 1683,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 307374.38
+    },
+    {
+      "id": 945,
+      "neighborhood": "Timber",
+      "overallQual": 6,
+      "yearBuilt": 1958,
+      "grLivArea": 1344,
+      "totalBsmtSF": 819,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 163425.16
+    },
+    {
+      "id": 1415,
+      "neighborhood": "BrkSide",
+      "overallQual": 6,
+      "yearBuilt": 1923,
+      "grLivArea": 1848,
+      "totalBsmtSF": 833,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 187041.21
+    },
+    {
+      "id": 911,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1960,
+      "grLivArea": 2274,
+      "totalBsmtSF": 1105,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 5,
+      "predictedPrice": 145910.38
+    },
+    {
+      "id": 388,
+      "neighborhood": "Edwards",
+      "overallQual": 6,
+      "yearBuilt": 1976,
+      "grLivArea": 1125,
+      "totalBsmtSF": 1041,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 140181.6
+    },
+    {
+      "id": 747,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 2000,
+      "grLivArea": 2256,
+      "totalBsmtSF": 952,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 239234.45
+    },
+    {
+      "id": 620,
+      "neighborhood": "Timber",
+      "overallQual": 8,
+      "yearBuilt": 2003,
+      "grLivArea": 2262,
+      "totalBsmtSF": 1482,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 314465.25
+    },
+    {
+      "id": 386,
+      "neighborhood": "Blmngtn",
+      "overallQual": 8,
+      "yearBuilt": 2004,
+      "grLivArea": 1269,
+      "totalBsmtSF": 1256,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 190863.05
+    },
+    {
+      "id": 818,
+      "neighborhood": "Mitchel",
+      "overallQual": 8,
+      "yearBuilt": 2002,
+      "grLivArea": 1689,
+      "totalBsmtSF": 1568,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 278575.47
+    },
+    {
+      "id": 539,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1968,
+      "grLivArea": 1159,
+      "totalBsmtSF": 1051,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 142281.1
+    },
+    {
+      "id": 535,
+      "neighborhood": "Gilbert",
+      "overallQual": 8,
+      "yearBuilt": 2004,
+      "grLivArea": 1414,
+      "totalBsmtSF": 707,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 192950.18
+    },
+    {
+      "id": 1399,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1950,
+      "grLivArea": 1904,
+      "totalBsmtSF": 1208,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 141197.64
+    },
+    {
+      "id": 571,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1965,
+      "grLivArea": 1728,
+      "totalBsmtSF": 1728,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 6,
+      "predictedPrice": 140221.75
+    },
+    {
+      "id": 38,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1954,
+      "grLivArea": 1297,
+      "totalBsmtSF": 1297,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 153139.89
+    },
+    {
+      "id": 850,
+      "neighborhood": "Veenker",
+      "overallQual": 6,
+      "yearBuilt": 1976,
+      "grLivArea": 1855,
+      "totalBsmtSF": 528,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 177955.14
+    },
+    {
+      "id": 1032,
+      "neighborhood": "SWISU",
+      "overallQual": 7,
+      "yearBuilt": 1920,
+      "grLivArea": 3082,
+      "totalBsmtSF": 824,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 5,
+      "predictedPrice": 242463.75
+    },
+    {
+      "id": 1433,
+      "neighborhood": "OldTown",
+      "overallQual": 4,
+      "yearBuilt": 1927,
+      "grLivArea": 968,
+      "totalBsmtSF": 656,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 103540.31
+    },
+    {
+      "id": 1354,
+      "neighborhood": "NoRidge",
+      "overallQual": 8,
+      "yearBuilt": 1995,
+      "grLivArea": 3238,
+      "totalBsmtSF": 2033,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 427177.11
+    },
+    {
+      "id": 1072,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1968,
+      "grLivArea": 1556,
+      "totalBsmtSF": 727,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 152852.82
+    },
+    {
+      "id": 371,
+      "neighborhood": "Gilbert",
+      "overallQual": 6,
+      "yearBuilt": 2000,
+      "grLivArea": 1664,
+      "totalBsmtSF": 953,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 175779.4
+    },
+    {
+      "id": 1242,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 2007,
+      "grLivArea": 1689,
+      "totalBsmtSF": 1689,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 232281.51
+    },
+    {
+      "id": 681,
+      "neighborhood": "SawyerW",
+      "overallQual": 6,
+      "yearBuilt": 1980,
+      "grLivArea": 923,
+      "totalBsmtSF": 923,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 128722.65
+    },
+    {
+      "id": 290,
+      "neighborhood": "BrkSide",
+      "overallQual": 6,
+      "yearBuilt": 1915,
+      "grLivArea": 1396,
+      "totalBsmtSF": 698,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 139974.2
+    },
+    {
+      "id": 973,
+      "neighborhood": "SawyerW",
+      "overallQual": 6,
+      "yearBuilt": 1979,
+      "grLivArea": 918,
+      "totalBsmtSF": 918,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 125778.26
+    },
+    {
+      "id": 989,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1976,
+      "grLivArea": 2030,
+      "totalBsmtSF": 848,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 187476.5
+    },
+    {
+      "id": 484,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1998,
+      "grLivArea": 1216,
+      "totalBsmtSF": 1216,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 157420.4
+    },
+    {
+      "id": 1240,
+      "neighborhood": "Timber",
+      "overallQual": 8,
+      "yearBuilt": 2006,
+      "grLivArea": 1484,
+      "totalBsmtSF": 1476,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 234019.77
+    },
+    {
+      "id": 1125,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 1992,
+      "grLivArea": 1482,
+      "totalBsmtSF": 384,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 169812.35
+    },
+    {
+      "id": 1143,
+      "neighborhood": "CollgCr",
+      "overallQual": 8,
+      "yearBuilt": 2006,
+      "grLivArea": 2828,
+      "totalBsmtSF": 1466,
+      "garageCars": 3,
+      "fullBath": 3,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 375395.96
+    },
+    {
+      "id": 1340,
+      "neighborhood": "CollgCr",
+      "overallQual": 5,
+      "yearBuilt": 1972,
+      "grLivArea": 864,
+      "totalBsmtSF": 864,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 124341.82
+    },
+    {
+      "id": 1343,
+      "neighborhood": "CollgCr",
+      "overallQual": 8,
+      "yearBuilt": 2002,
+      "grLivArea": 2169,
+      "totalBsmtSF": 1284,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 249449.77
+    },
+    {
+      "id": 936,
+      "neighborhood": "BrkSide",
+      "overallQual": 4,
+      "yearBuilt": 1926,
+      "grLivArea": 747,
+      "totalBsmtSF": 600,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 88318.76
+    },
+    {
+      "id": 1151,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1950,
+      "grLivArea": 932,
+      "totalBsmtSF": 932,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 128260.66
+    },
+    {
+      "id": 1380,
+      "neighborhood": "Timber",
+      "overallQual": 5,
+      "yearBuilt": 2006,
+      "grLivArea": 1394,
+      "totalBsmtSF": 384,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 139861.45
+    },
+    {
+      "id": 1190,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 1999,
+      "grLivArea": 1804,
+      "totalBsmtSF": 994,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 198266.67
+    },
+    {
+      "id": 635,
+      "neighborhood": "OldTown",
+      "overallQual": 6,
+      "yearBuilt": 1980,
+      "grLivArea": 1056,
+      "totalBsmtSF": 1056,
+      "garageCars": 2,
+      "fullBath": 0,
+      "bedroomAbvGr": 0,
+      "predictedPrice": 142923.29
+    },
+    {
+      "id": 47,
+      "neighborhood": "Mitchel",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 2149,
+      "totalBsmtSF": 1434,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 284859.55
+    },
+    {
+      "id": 729,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1958,
+      "grLivArea": 1776,
+      "totalBsmtSF": 1584,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 138901.69
+    },
+    {
+      "id": 1434,
+      "neighborhood": "Gilbert",
+      "overallQual": 6,
+      "yearBuilt": 2000,
+      "grLivArea": 1792,
+      "totalBsmtSF": 936,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 186258.26
+    },
+    {
+      "id": 472,
+      "neighborhood": "NWAmes",
+      "overallQual": 7,
+      "yearBuilt": 1977,
+      "grLivArea": 1969,
+      "totalBsmtSF": 808,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 194358.22
+    },
+    {
+      "id": 1156,
+      "neighborhood": "Veenker",
+      "overallQual": 5,
+      "yearBuilt": 1976,
+      "grLivArea": 1437,
+      "totalBsmtSF": 1437,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 188438.38
+    },
+    {
+      "id": 1352,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1962,
+      "grLivArea": 1716,
+      "totalBsmtSF": 858,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 165036.62
+    },
+    {
+      "id": 717,
+      "neighborhood": "OldTown",
+      "overallQual": 7,
+      "yearBuilt": 1890,
+      "grLivArea": 2554,
+      "totalBsmtSF": 718,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 206641.15
+    },
+    {
+      "id": 385,
+      "neighborhood": "ClearCr",
+      "overallQual": 6,
+      "yearBuilt": 1992,
+      "grLivArea": 1953,
+      "totalBsmtSF": 1580,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 237095.32
+    },
+    {
+      "id": 1334,
+      "neighborhood": "IDOTRR",
+      "overallQual": 5,
+      "yearBuilt": 1938,
+      "grLivArea": 1360,
+      "totalBsmtSF": 803,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 129279.75
+    },
+    {
+      "id": 243,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1900,
+      "grLivArea": 1440,
+      "totalBsmtSF": 540,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 94959.33
+    },
+    {
+      "id": 39,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1953,
+      "grLivArea": 1057,
+      "totalBsmtSF": 1057,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 133613.82
+    },
+    {
+      "id": 1168,
+      "neighborhood": "Gilbert",
+      "overallQual": 6,
+      "yearBuilt": 2000,
+      "grLivArea": 1671,
+      "totalBsmtSF": 959,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 182145.81
+    },
+    {
+      "id": 214,
+      "neighborhood": "CollgCr",
+      "overallQual": 5,
+      "yearBuilt": 1995,
+      "grLivArea": 990,
+      "totalBsmtSF": 990,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 144048.43
+    },
+    {
+      "id": 647,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1950,
+      "grLivArea": 1048,
+      "totalBsmtSF": 0,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 101274.28
+    },
+    {
+      "id": 490,
+      "neighborhood": "MeadowV",
+      "overallQual": 4,
+      "yearBuilt": 1970,
+      "grLivArea": 630,
+      "totalBsmtSF": 630,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 94054.92
+    },
+    {
+      "id": 512,
+      "neighborhood": "NridgHt",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1368,
+      "totalBsmtSF": 1368,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 194895.65
+    },
+    {
+      "id": 1181,
+      "neighborhood": "Timber",
+      "overallQual": 7,
+      "yearBuilt": 1990,
+      "grLivArea": 2514,
+      "totalBsmtSF": 1216,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 239708.93
+    },
+    {
+      "id": 1451,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1974,
+      "grLivArea": 1792,
+      "totalBsmtSF": 896,
+      "garageCars": 0,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 133698.48
+    },
+    {
+      "id": 1428,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1945,
+      "grLivArea": 1558,
+      "totalBsmtSF": 913,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 139466.17
+    },
+    {
+      "id": 767,
+      "neighborhood": "NWAmes",
+      "overallQual": 7,
+      "yearBuilt": 1988,
+      "grLivArea": 1714,
+      "totalBsmtSF": 980,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 184886.26
+    },
+    {
+      "id": 1250,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1950,
+      "grLivArea": 988,
+      "totalBsmtSF": 876,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 123009.07
+    },
+    {
+      "id": 855,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1955,
+      "grLivArea": 1779,
+      "totalBsmtSF": 1763,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 168011.45
+    },
+    {
+      "id": 1001,
+      "neighborhood": "Edwards",
+      "overallQual": 3,
+      "yearBuilt": 1952,
+      "grLivArea": 944,
+      "totalBsmtSF": 0,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 61571.8
+    },
+    {
+      "id": 49,
+      "neighborhood": "OldTown",
+      "overallQual": 4,
+      "yearBuilt": 1920,
+      "grLivArea": 1452,
+      "totalBsmtSF": 736,
+      "garageCars": 0,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 97504.61
+    },
+    {
+      "id": 25,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1968,
+      "grLivArea": 1060,
+      "totalBsmtSF": 1060,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 149532.58
+    },
+    {
+      "id": 1058,
+      "neighborhood": "NoRidge",
+      "overallQual": 7,
+      "yearBuilt": 1994,
+      "grLivArea": 1850,
+      "totalBsmtSF": 973,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 234262.86
+    },
+    {
+      "id": 24,
+      "neighborhood": "MeadowV",
+      "overallQual": 5,
+      "yearBuilt": 1976,
+      "grLivArea": 1060,
+      "totalBsmtSF": 1040,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 137446.61
+    },
+    {
+      "id": 758,
+      "neighborhood": "Sawyer",
+      "overallQual": 6,
+      "yearBuilt": 1978,
+      "grLivArea": 1386,
+      "totalBsmtSF": 672,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 158157.39
+    },
+    {
+      "id": 1060,
+      "neighborhood": "Crawfor",
+      "overallQual": 6,
+      "yearBuilt": 1932,
+      "grLivArea": 1991,
+      "totalBsmtSF": 854,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 184943.81
+    },
+    {
+      "id": 1110,
+      "neighborhood": "NridgHt",
+      "overallQual": 8,
+      "yearBuilt": 2004,
+      "grLivArea": 1836,
+      "totalBsmtSF": 1836,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 291697.42
+    },
+    {
+      "id": 1057,
+      "neighborhood": "NridgHt",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1364,
+      "totalBsmtSF": 1364,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 211401.47
+    },
+    {
+      "id": 491,
+      "neighborhood": "MeadowV",
+      "overallQual": 5,
+      "yearBuilt": 1976,
+      "grLivArea": 1304,
+      "totalBsmtSF": 264,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 108950.73
+    },
+    {
+      "id": 378,
+      "neighborhood": "Somerst",
+      "overallQual": 8,
+      "yearBuilt": 2004,
+      "grLivArea": 2466,
+      "totalBsmtSF": 1580,
+      "garageCars": 2,
+      "fullBath": 3,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 278026.9
+    },
+    {
+      "id": 1429,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1940,
+      "grLivArea": 804,
+      "totalBsmtSF": 788,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 117513.67
+    },
+    {
+      "id": 55,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1955,
+      "grLivArea": 1360,
+      "totalBsmtSF": 384,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 117701.11
+    },
+    {
+      "id": 770,
+      "neighborhood": "StoneBr",
+      "overallQual": 8,
+      "yearBuilt": 2003,
+      "grLivArea": 3279,
+      "totalBsmtSF": 1650,
+      "garageCars": 3,
+      "fullBath": 3,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 465699.1
+    },
+    {
+      "id": 737,
+      "neighborhood": "NAmes",
+      "overallQual": 3,
+      "yearBuilt": 1950,
+      "grLivArea": 1040,
+      "totalBsmtSF": 0,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 84905.74
+    },
+    {
+      "id": 59,
+      "neighborhood": "StoneBr",
+      "overallQual": 10,
+      "yearBuilt": 2006,
+      "grLivArea": 2945,
+      "totalBsmtSF": 1410,
+      "garageCars": 3,
+      "fullBath": 3,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 459833.09
+    },
+    {
+      "id": 29,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1957,
+      "grLivArea": 1600,
+      "totalBsmtSF": 1484,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 183086.31
+    },
+    {
+      "id": 788,
+      "neighborhood": "SawyerW",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 2084,
+      "totalBsmtSF": 956,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 225224.76
+    },
+    {
+      "id": 9,
+      "neighborhood": "OldTown",
+      "overallQual": 7,
+      "yearBuilt": 1931,
+      "grLivArea": 1774,
+      "totalBsmtSF": 952,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 141214.03
+    },
+    {
+      "id": 1371,
+      "neighborhood": "OldTown",
+      "overallQual": 4,
+      "yearBuilt": 1920,
+      "grLivArea": 1374,
+      "totalBsmtSF": 840,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 112722.88
+    },
+    {
+      "id": 260,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1956,
+      "grLivArea": 882,
+      "totalBsmtSF": 0,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 106359.18
+    },
+    {
+      "id": 249,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 1668,
+      "totalBsmtSF": 840,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 190925.06
+    },
+    {
+      "id": 88,
+      "neighborhood": "Somerst",
+      "overallQual": 6,
+      "yearBuilt": 2009,
+      "grLivArea": 1224,
+      "totalBsmtSF": 612,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 160833.05
+    },
+    {
+      "id": 893,
+      "neighborhood": "Sawyer",
+      "overallQual": 6,
+      "yearBuilt": 1963,
+      "grLivArea": 1068,
+      "totalBsmtSF": 1059,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 147955.61
+    },
+    {
+      "id": 803,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1456,
+      "totalBsmtSF": 728,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 191502.95
+    },
+    {
+      "id": 901,
+      "neighborhood": "NAmes",
+      "overallQual": 4,
+      "yearBuilt": 1971,
+      "grLivArea": 858,
+      "totalBsmtSF": 858,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 108974.14
+    },
+    {
+      "id": 1124,
+      "neighborhood": "Edwards",
+      "overallQual": 5,
+      "yearBuilt": 1947,
+      "grLivArea": 698,
+      "totalBsmtSF": 698,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 109549.62
+    },
+    {
+      "id": 223,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1975,
+      "grLivArea": 1552,
+      "totalBsmtSF": 713,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 170124.95
+    },
+    {
+      "id": 1278,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1967,
+      "grLivArea": 1724,
+      "totalBsmtSF": 1680,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 189973.87
+    },
+    {
+      "id": 1174,
+      "neighborhood": "ClearCr",
+      "overallQual": 5,
+      "yearBuilt": 1946,
+      "grLivArea": 3086,
+      "totalBsmtSF": 1598,
+      "garageCars": 0,
+      "fullBath": 3,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 211526.17
+    },
+    {
+      "id": 312,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1948,
+      "grLivArea": 972,
+      "totalBsmtSF": 972,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 141421.3
+    },
+    {
+      "id": 624,
+      "neighborhood": "Somerst",
+      "overallQual": 6,
+      "yearBuilt": 2000,
+      "grLivArea": 1512,
+      "totalBsmtSF": 756,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 171791.92
+    },
+    {
+      "id": 1445,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1422,
+      "totalBsmtSF": 1422,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 193882.79
+    },
+    {
+      "id": 296,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1984,
+      "grLivArea": 1003,
+      "totalBsmtSF": 1003,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 151013.8
+    },
+    {
+      "id": 753,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 1997,
+      "grLivArea": 1494,
+      "totalBsmtSF": 1479,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 201218.34
+    },
+    {
+      "id": 1320,
+      "neighborhood": "Edwards",
+      "overallQual": 4,
+      "yearBuilt": 1954,
+      "grLivArea": 948,
+      "totalBsmtSF": 864,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 112623.56
+    },
+    {
+      "id": 432,
+      "neighborhood": "OldTown",
+      "overallQual": 6,
+      "yearBuilt": 1920,
+      "grLivArea": 1198,
+      "totalBsmtSF": 901,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 105106.03
+    },
+    {
+      "id": 1362,
+      "neighborhood": "StoneBr",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1530,
+      "totalBsmtSF": 1530,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 250425.37
+    },
+    {
+      "id": 1069,
+      "neighborhood": "MeadowV",
+      "overallQual": 6,
+      "yearBuilt": 1973,
+      "grLivArea": 2521,
+      "totalBsmtSF": 942,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 5,
+      "predictedPrice": 172315.32
+    },
+    {
+      "id": 1255,
+      "neighborhood": "Edwards",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 1656,
+      "totalBsmtSF": 746,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 182161.22
+    },
+    {
+      "id": 50,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1966,
+      "grLivArea": 955,
+      "totalBsmtSF": 955,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 129540.35
+    },
+    {
+      "id": 454,
+      "neighborhood": "Somerst",
+      "overallQual": 8,
+      "yearBuilt": 2008,
+      "grLivArea": 1590,
+      "totalBsmtSF": 768,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 217064.05
+    },
+    {
+      "id": 881,
+      "neighborhood": "Edwards",
+      "overallQual": 5,
+      "yearBuilt": 2005,
+      "grLivArea": 1090,
+      "totalBsmtSF": 1090,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 157397.19
+    },
+    {
+      "id": 500,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1958,
+      "grLivArea": 912,
+      "totalBsmtSF": 912,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 125552.59
+    },
+    {
+      "id": 807,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1967,
+      "grLivArea": 980,
+      "totalBsmtSF": 980,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 128046.32
+    },
+    {
+      "id": 766,
+      "neighborhood": "Somerst",
+      "overallQual": 9,
+      "yearBuilt": 2008,
+      "grLivArea": 1506,
+      "totalBsmtSF": 1498,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 269007.67
+    },
+    {
+      "id": 866,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1970,
+      "grLivArea": 1002,
+      "totalBsmtSF": 1002,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 134742.88
+    },
+    {
+      "id": 162,
+      "neighborhood": "NridgHt",
+      "overallQual": 9,
+      "yearBuilt": 2003,
+      "grLivArea": 2668,
+      "totalBsmtSF": 1572,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 396367.98
+    },
+    {
+      "id": 1193,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1925,
+      "grLivArea": 1472,
+      "totalBsmtSF": 702,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 123248.4
+    },
+    {
+      "id": 798,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1953,
+      "grLivArea": 773,
+      "totalBsmtSF": 773,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 105072.91
+    },
+    {
+      "id": 1400,
+      "neighborhood": "SWISU",
+      "overallQual": 6,
+      "yearBuilt": 1925,
+      "grLivArea": 1608,
+      "totalBsmtSF": 976,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 155937.22
+    },
+    {
+      "id": 6,
+      "neighborhood": "Mitchel",
+      "overallQual": 5,
+      "yearBuilt": 1993,
+      "grLivArea": 1362,
+      "totalBsmtSF": 796,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 155938.64
+    },
+    {
+      "id": 58,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1720,
+      "totalBsmtSF": 860,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 193226.24
+    },
+    {
+      "id": 1435,
+      "neighborhood": "Mitchel",
+      "overallQual": 5,
+      "yearBuilt": 1977,
+      "grLivArea": 1126,
+      "totalBsmtSF": 1126,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 160180.89
+    },
+    {
+      "id": 867,
+      "neighborhood": "Timber",
+      "overallQual": 8,
+      "yearBuilt": 2006,
+      "grLivArea": 1646,
+      "totalBsmtSF": 1638,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 249186.38
+    },
+    {
+      "id": 960,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 1999,
+      "grLivArea": 1416,
+      "totalBsmtSF": 696,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 168839.98
+    },
+    {
+      "id": 441,
+      "neighborhood": "NridgHt",
+      "overallQual": 10,
+      "yearBuilt": 2008,
+      "grLivArea": 2402,
+      "totalBsmtSF": 3094,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 451494.13
+    },
+    {
+      "id": 481,
+      "neighborhood": "NridgHt",
+      "overallQual": 9,
+      "yearBuilt": 2004,
+      "grLivArea": 1850,
+      "totalBsmtSF": 1833,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 361110.82
+    },
+    {
+      "id": 219,
+      "neighborhood": "Crawfor",
+      "overallQual": 7,
+      "yearBuilt": 1939,
+      "grLivArea": 1954,
+      "totalBsmtSF": 798,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 241592.57
+    },
+    {
+      "id": 128,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1930,
+      "grLivArea": 840,
+      "totalBsmtSF": 672,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 89658.98
+    },
+    {
+      "id": 858,
+      "neighborhood": "Gilbert",
+      "overallQual": 6,
+      "yearBuilt": 1994,
+      "grLivArea": 1481,
+      "totalBsmtSF": 702,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 158745.78
+    },
+    {
+      "id": 215,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 1977,
+      "grLivArea": 1392,
+      "totalBsmtSF": 689,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 145962.18
+    },
+    {
+      "id": 1030,
+      "neighborhood": "BrDale",
+      "overallQual": 6,
+      "yearBuilt": 1972,
+      "grLivArea": 1218,
+      "totalBsmtSF": 672,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 118307.65
+    },
+    {
+      "id": 1204,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2000,
+      "grLivArea": 1630,
+      "totalBsmtSF": 1630,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 213623.59
+    },
+    {
+      "id": 531,
+      "neighborhood": "Timber",
+      "overallQual": 6,
+      "yearBuilt": 1988,
+      "grLivArea": 1509,
+      "totalBsmtSF": 1461,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 184360.49
+    },
+    {
+      "id": 529,
+      "neighborhood": "Edwards",
+      "overallQual": 4,
+      "yearBuilt": 1920,
+      "grLivArea": 605,
+      "totalBsmtSF": 528,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 83407.27
+    },
+    {
+      "id": 346,
+      "neighborhood": "BrkSide",
+      "overallQual": 6,
+      "yearBuilt": 1939,
+      "grLivArea": 1577,
+      "totalBsmtSF": 972,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 132252.26
+    },
+    {
+      "id": 621,
+      "neighborhood": "Edwards",
+      "overallQual": 3,
+      "yearBuilt": 1914,
+      "grLivArea": 864,
+      "totalBsmtSF": 864,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 63218.58
+    },
+    {
+      "id": 1194,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1999,
+      "grLivArea": 1224,
+      "totalBsmtSF": 1224,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 163825.18
+    },
+    {
+      "id": 1000,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2006,
+      "grLivArea": 1208,
+      "totalBsmtSF": 1187,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 189583.08
+    },
+    {
+      "id": 761,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1959,
+      "grLivArea": 864,
+      "totalBsmtSF": 864,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 129454.74
+    },
+    {
+      "id": 1351,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1969,
+      "grLivArea": 2634,
+      "totalBsmtSF": 1248,
+      "garageCars": 4,
+      "fullBath": 2,
+      "bedroomAbvGr": 6,
+      "predictedPrice": 189648.9
+    },
+    {
+      "id": 1442,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 2004,
+      "grLivArea": 848,
+      "totalBsmtSF": 848,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 144151.56
+    },
+    {
+      "id": 233,
+      "neighborhood": "BrDale",
+      "overallQual": 6,
+      "yearBuilt": 1972,
+      "grLivArea": 987,
+      "totalBsmtSF": 483,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 96111.94
+    },
+    {
+      "id": 360,
+      "neighborhood": "NoRidge",
+      "overallQual": 8,
+      "yearBuilt": 1998,
+      "grLivArea": 1924,
+      "totalBsmtSF": 1086,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 287772.3
+    },
+    {
+      "id": 886,
+      "neighborhood": "Somerst",
+      "overallQual": 9,
+      "yearBuilt": 1999,
+      "grLivArea": 1709,
+      "totalBsmtSF": 1698,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 285696.67
+    },
+    {
+      "id": 11,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1965,
+      "grLivArea": 1040,
+      "totalBsmtSF": 1040,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 128847.48
+    },
+    {
+      "id": 572,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1959,
+      "grLivArea": 864,
+      "totalBsmtSF": 864,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 129210.87
+    },
+    {
+      "id": 1375,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1958,
+      "totalBsmtSF": 1026,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 234950.17
+    },
+    {
+      "id": 328,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1960,
+      "grLivArea": 1383,
+      "totalBsmtSF": 1383,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 144239.19
+    },
+    {
+      "id": 1417,
+      "neighborhood": "OldTown",
+      "overallQual": 4,
+      "yearBuilt": 1885,
+      "grLivArea": 2290,
+      "totalBsmtSF": 777,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 125318.45
+    },
+    {
+      "id": 1089,
+      "neighborhood": "Edwards",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1709,
+      "totalBsmtSF": 970,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 134954.09
+    },
+    {
+      "id": 242,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1945,
+      "grLivArea": 866,
+      "totalBsmtSF": 686,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 100355.65
+    },
+    {
+      "id": 1198,
+      "neighborhood": "OldTown",
+      "overallQual": 7,
+      "yearBuilt": 1916,
+      "grLivArea": 1690,
+      "totalBsmtSF": 815,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 153037.58
+    },
+    {
+      "id": 492,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1941,
+      "grLivArea": 1578,
+      "totalBsmtSF": 806,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 148722.86
+    },
+    {
+      "id": 743,
+      "neighborhood": "SawyerW",
+      "overallQual": 7,
+      "yearBuilt": 2000,
+      "grLivArea": 1349,
+      "totalBsmtSF": 1349,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 178762.26
+    },
+    {
+      "id": 1258,
+      "neighborhood": "Edwards",
+      "overallQual": 5,
+      "yearBuilt": 1922,
+      "grLivArea": 864,
+      "totalBsmtSF": 864,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 88679.35
+    },
+    {
+      "id": 1350,
+      "neighborhood": "OldTown",
+      "overallQual": 8,
+      "yearBuilt": 1872,
+      "grLivArea": 2358,
+      "totalBsmtSF": 684,
+      "garageCars": 0,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 170002.89
+    },
+    {
+      "id": 722,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 2004,
+      "grLivArea": 848,
+      "totalBsmtSF": 848,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 142008.28
+    },
+    {
+      "id": 442,
+      "neighborhood": "Edwards",
+      "overallQual": 4,
+      "yearBuilt": 1955,
+      "grLivArea": 1440,
+      "totalBsmtSF": 1440,
+      "garageCars": 0,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 111679.74
+    },
+    {
+      "id": 90,
+      "neighborhood": "CollgCr",
+      "overallQual": 4,
+      "yearBuilt": 1994,
+      "grLivArea": 990,
+      "totalBsmtSF": 990,
+      "garageCars": 0,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 117984.88
+    },
+    {
+      "id": 1007,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1970,
+      "grLivArea": 1657,
+      "totalBsmtSF": 1657,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 165839.77
+    },
+    {
+      "id": 1241,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2003,
+      "grLivArea": 1768,
+      "totalBsmtSF": 884,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 211203.82
+    },
+    {
+      "id": 144,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 1999,
+      "grLivArea": 1501,
+      "totalBsmtSF": 1490,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 218088.7
+    },
+    {
+      "id": 1317,
+      "neighborhood": "CollgCr",
+      "overallQual": 8,
+      "yearBuilt": 2008,
+      "grLivArea": 1630,
+      "totalBsmtSF": 1622,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 278928.91
+    },
+    {
+      "id": 1080,
+      "neighborhood": "CollgCr",
+      "overallQual": 5,
+      "yearBuilt": 1994,
+      "grLivArea": 990,
+      "totalBsmtSF": 990,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 127582.22
+    },
+    {
+      "id": 1160,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1974,
+      "grLivArea": 1876,
+      "totalBsmtSF": 901,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 180998.96
+    },
+    {
+      "id": 482,
+      "neighborhood": "NridgHt",
+      "overallQual": 9,
+      "yearBuilt": 2003,
+      "grLivArea": 1792,
+      "totalBsmtSF": 1792,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 357787.67
+    },
+    {
+      "id": 33,
+      "neighborhood": "CollgCr",
+      "overallQual": 8,
+      "yearBuilt": 2007,
+      "grLivArea": 1234,
+      "totalBsmtSF": 1234,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 195663.94
+    },
+    {
+      "id": 1280,
+      "neighborhood": "IDOTRR",
+      "overallQual": 4,
+      "yearBuilt": 1920,
+      "grLivArea": 1128,
+      "totalBsmtSF": 698,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 91549.9
+    },
+    {
+      "id": 541,
+      "neighborhood": "Timber",
+      "overallQual": 9,
+      "yearBuilt": 2006,
+      "grLivArea": 1838,
+      "totalBsmtSF": 1838,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 359502.3
+    },
+    {
+      "id": 994,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 2005,
+      "grLivArea": 1500,
+      "totalBsmtSF": 750,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 173345.05
+    },
+    {
+      "id": 1385,
+      "neighborhood": "Edwards",
+      "overallQual": 6,
+      "yearBuilt": 1939,
+      "grLivArea": 1258,
+      "totalBsmtSF": 560,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 110980.37
+    },
+    {
+      "id": 792,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1976,
+      "grLivArea": 1062,
+      "totalBsmtSF": 1029,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 153566.04
+    },
+    {
+      "id": 1002,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1920,
+      "grLivArea": 691,
+      "totalBsmtSF": 691,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 89219.68
+    },
+    {
+      "id": 420,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1968,
+      "grLivArea": 1056,
+      "totalBsmtSF": 1056,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 138716.66
+    },
+    {
+      "id": 354,
+      "neighborhood": "OldTown",
+      "overallQual": 6,
+      "yearBuilt": 1928,
+      "grLivArea": 720,
+      "totalBsmtSF": 624,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 114429.52
+    },
+    {
+      "id": 447,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1966,
+      "grLivArea": 1888,
+      "totalBsmtSF": 1517,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 207774.18
+    },
+    {
+      "id": 883,
+      "neighborhood": "Gilbert",
+      "overallQual": 6,
+      "yearBuilt": 1992,
+      "grLivArea": 1593,
+      "totalBsmtSF": 808,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 174308.82
+    },
+    {
+      "id": 578,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1966,
+      "grLivArea": 1320,
+      "totalBsmtSF": 1164,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 158466.86
+    },
+    {
+      "id": 1251,
+      "neighborhood": "NAmes",
+      "overallQual": 7,
+      "yearBuilt": 1968,
+      "grLivArea": 2110,
+      "totalBsmtSF": 2110,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 252988.55
+    },
+    {
+      "id": 671,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 2005,
+      "grLivArea": 1476,
+      "totalBsmtSF": 738,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 176639.22
+    },
+    {
+      "id": 1017,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 1996,
+      "grLivArea": 1504,
+      "totalBsmtSF": 1504,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 224472.63
+    },
+    {
+      "id": 780,
+      "neighborhood": "Mitchel",
+      "overallQual": 6,
+      "yearBuilt": 1977,
+      "grLivArea": 1004,
+      "totalBsmtSF": 975,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 149748.48
+    },
+    {
+      "id": 1269,
+      "neighborhood": "Crawfor",
+      "overallQual": 8,
+      "yearBuilt": 1935,
+      "grLivArea": 3447,
+      "totalBsmtSF": 728,
+      "garageCars": 3,
+      "fullBath": 3,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 384093.89
+    },
+    {
+      "id": 1145,
+      "neighborhood": "Edwards",
+      "overallQual": 4,
+      "yearBuilt": 1941,
+      "grLivArea": 924,
+      "totalBsmtSF": 672,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 90803.17
+    },
+    {
+      "id": 486,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1950,
+      "grLivArea": 1113,
+      "totalBsmtSF": 1113,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 140664.66
+    },
+    {
+      "id": 134,
+      "neighborhood": "Timber",
+      "overallQual": 8,
+      "yearBuilt": 2001,
+      "grLivArea": 1296,
+      "totalBsmtSF": 1267,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 216983.34
+    },
+    {
+      "id": 1282,
+      "neighborhood": "Timber",
+      "overallQual": 7,
+      "yearBuilt": 1990,
+      "grLivArea": 1339,
+      "totalBsmtSF": 1309,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 187662.61
+    },
+    {
+      "id": 693,
+      "neighborhood": "Timber",
+      "overallQual": 7,
+      "yearBuilt": 1989,
+      "grLivArea": 2519,
+      "totalBsmtSF": 1210,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 289485.62
+    },
+    {
+      "id": 1119,
+      "neighborhood": "Sawyer",
+      "overallQual": 5,
+      "yearBuilt": 1958,
+      "grLivArea": 1601,
+      "totalBsmtSF": 533,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 134833.24
+    },
+    {
+      "id": 408,
+      "neighborhood": "Crawfor",
+      "overallQual": 6,
+      "yearBuilt": 1915,
+      "grLivArea": 1680,
+      "totalBsmtSF": 840,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 164008.71
+    },
+    {
+      "id": 1288,
+      "neighborhood": "ClearCr",
+      "overallQual": 5,
+      "yearBuilt": 1964,
+      "grLivArea": 1582,
+      "totalBsmtSF": 1624,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 169915.08
+    },
+    {
+      "id": 159,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1947,
+      "totalBsmtSF": 991,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 222624.53
+    },
+    {
+      "id": 577,
+      "neighborhood": "SWISU",
+      "overallQual": 7,
+      "yearBuilt": 1928,
+      "grLivArea": 1477,
+      "totalBsmtSF": 861,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 153377.03
+    },
+    {
+      "id": 1014,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1910,
+      "grLivArea": 1022,
+      "totalBsmtSF": 1022,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 108915.66
+    },
+    {
+      "id": 226,
+      "neighborhood": "BrDale",
+      "overallQual": 5,
+      "yearBuilt": 1971,
+      "grLivArea": 1302,
+      "totalBsmtSF": 630,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 99307.11
+    },
+    {
+      "id": 140,
+      "neighborhood": "CollgCr",
+      "overallQual": 6,
+      "yearBuilt": 1997,
+      "grLivArea": 1764,
+      "totalBsmtSF": 928,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 205879.72
+    },
+    {
+      "id": 109,
+      "neighborhood": "IDOTRR",
+      "overallQual": 5,
+      "yearBuilt": 1919,
+      "grLivArea": 1517,
+      "totalBsmtSF": 793,
+      "garageCars": 0,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 118453.84
+    },
+    {
+      "id": 988,
+      "neighborhood": "NridgHt",
+      "overallQual": 9,
+      "yearBuilt": 2009,
+      "grLivArea": 1940,
+      "totalBsmtSF": 1930,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 390323.38
+    },
+    {
+      "id": 633,
+      "neighborhood": "NWAmes",
+      "overallQual": 7,
+      "yearBuilt": 1977,
+      "grLivArea": 1411,
+      "totalBsmtSF": 1386,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 174590.65
+    },
+    {
+      "id": 1221,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1964,
+      "grLivArea": 912,
+      "totalBsmtSF": 912,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 108588.93
+    },
+    {
+      "id": 1431,
+      "neighborhood": "Gilbert",
+      "overallQual": 5,
+      "yearBuilt": 2005,
+      "grLivArea": 1838,
+      "totalBsmtSF": 732,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 168829.46
+    },
+    {
+      "id": 365,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1976,
+      "grLivArea": 1574,
+      "totalBsmtSF": 796,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 186686.31
+    },
+    {
+      "id": 495,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1938,
+      "grLivArea": 886,
+      "totalBsmtSF": 190,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 102140.59
+    },
+    {
+      "id": 165,
+      "neighborhood": "OldTown",
+      "overallQual": 6,
+      "yearBuilt": 1926,
+      "grLivArea": 1616,
+      "totalBsmtSF": 1149,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 145133.91
+    },
+    {
+      "id": 816,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 1998,
+      "grLivArea": 1661,
+      "totalBsmtSF": 1649,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 209105.42
+    },
+    {
+      "id": 181,
+      "neighborhood": "Somerst",
+      "overallQual": 6,
+      "yearBuilt": 2000,
+      "grLivArea": 1525,
+      "totalBsmtSF": 756,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 168789.81
+    },
+    {
+      "id": 107,
+      "neighborhood": "OldTown",
+      "overallQual": 4,
+      "yearBuilt": 1885,
+      "grLivArea": 1047,
+      "totalBsmtSF": 641,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 97127.91
+    },
+    {
+      "id": 125,
+      "neighborhood": "NWAmes",
+      "overallQual": 6,
+      "yearBuilt": 1979,
+      "grLivArea": 1586,
+      "totalBsmtSF": 1362,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 174829.76
+    },
+    {
+      "id": 1218,
+      "neighborhood": "Somerst",
+      "overallQual": 8,
+      "yearBuilt": 2009,
+      "grLivArea": 1314,
+      "totalBsmtSF": 1300,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 243117.19
+    },
+    {
+      "id": 938,
+      "neighborhood": "Somerst",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1971,
+      "totalBsmtSF": 1113,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 227542.23
+    },
+    {
+      "id": 372,
+      "neighborhood": "ClearCr",
+      "overallQual": 4,
+      "yearBuilt": 1959,
+      "grLivArea": 1588,
+      "totalBsmtSF": 0,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 111432.36
+    },
+    {
+      "id": 45,
+      "neighborhood": "NAmes",
+      "overallQual": 5,
+      "yearBuilt": 1959,
+      "grLivArea": 1150,
+      "totalBsmtSF": 1150,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 142142.15
+    },
+    {
+      "id": 995,
+      "neighborhood": "NridgHt",
+      "overallQual": 10,
+      "yearBuilt": 2006,
+      "grLivArea": 1718,
+      "totalBsmtSF": 1700,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 358289.13
+    },
+    {
+      "id": 314,
+      "neighborhood": "Timber",
+      "overallQual": 7,
+      "yearBuilt": 1965,
+      "grLivArea": 2036,
+      "totalBsmtSF": 2136,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 288033.9
+    },
+    {
+      "id": 948,
+      "neighborhood": "Timber",
+      "overallQual": 8,
+      "yearBuilt": 2002,
+      "grLivArea": 1629,
+      "totalBsmtSF": 1616,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 268507.64
+    },
+    {
+      "id": 217,
+      "neighborhood": "CollgCr",
+      "overallQual": 7,
+      "yearBuilt": 2004,
+      "grLivArea": 1436,
+      "totalBsmtSF": 1436,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 210146.0
+    },
+    {
+      "id": 781,
+      "neighborhood": "Gilbert",
+      "overallQual": 7,
+      "yearBuilt": 1995,
+      "grLivArea": 1253,
+      "totalBsmtSF": 1237,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 172584.8
+    },
+    {
+      "id": 1293,
+      "neighborhood": "OldTown",
+      "overallQual": 5,
+      "yearBuilt": 1892,
+      "grLivArea": 2372,
+      "totalBsmtSF": 994,
+      "garageCars": 1,
+      "fullBath": 2,
+      "bedroomAbvGr": 4,
+      "predictedPrice": 111719.53
+    },
+    {
+      "id": 1005,
+      "neighborhood": "Blmngtn",
+      "overallQual": 7,
+      "yearBuilt": 2005,
+      "grLivArea": 1504,
+      "totalBsmtSF": 1346,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 1,
+      "predictedPrice": 189815.31
+    },
+    {
+      "id": 528,
+      "neighborhood": "NridgHt",
+      "overallQual": 9,
+      "yearBuilt": 2008,
+      "grLivArea": 2713,
+      "totalBsmtSF": 1452,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 415517.12
+    },
+    {
+      "id": 44,
+      "neighborhood": "CollgCr",
+      "overallQual": 5,
+      "yearBuilt": 1975,
+      "grLivArea": 938,
+      "totalBsmtSF": 938,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 130669.26
+    },
+    {
+      "id": 645,
+      "neighborhood": "Somerst",
+      "overallQual": 9,
+      "yearBuilt": 2009,
+      "grLivArea": 1766,
+      "totalBsmtSF": 1766,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 356645.0
+    },
+    {
+      "id": 340,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1958,
+      "grLivArea": 1215,
+      "totalBsmtSF": 1215,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 146538.31
+    },
+    {
+      "id": 1116,
+      "neighborhood": "NridgHt",
+      "overallQual": 8,
+      "yearBuilt": 2007,
+      "grLivArea": 1734,
+      "totalBsmtSF": 1734,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 299027.66
+    },
+    {
+      "id": 358,
+      "neighborhood": "MeadowV",
+      "overallQual": 5,
+      "yearBuilt": 1976,
+      "grLivArea": 1142,
+      "totalBsmtSF": 1142,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 142547.53
+    },
+    {
+      "id": 72,
+      "neighborhood": "Mitchel",
+      "overallQual": 4,
+      "yearBuilt": 1982,
+      "grLivArea": 845,
+      "totalBsmtSF": 845,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 119566.94
+    },
+    {
+      "id": 56,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1964,
+      "grLivArea": 1425,
+      "totalBsmtSF": 1425,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 164821.37
+    },
+    {
+      "id": 83,
+      "neighborhood": "Somerst",
+      "overallQual": 8,
+      "yearBuilt": 2007,
+      "grLivArea": 1563,
+      "totalBsmtSF": 1563,
+      "garageCars": 3,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 240244.02
+    },
+    {
+      "id": 1048,
+      "neighborhood": "CollgCr",
+      "overallQual": 5,
+      "yearBuilt": 1994,
+      "grLivArea": 990,
+      "totalBsmtSF": 990,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 136113.31
+    },
+    {
+      "id": 17,
+      "neighborhood": "NAmes",
+      "overallQual": 6,
+      "yearBuilt": 1970,
+      "grLivArea": 1004,
+      "totalBsmtSF": 1004,
+      "garageCars": 2,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 158546.62
+    },
+    {
+      "id": 523,
+      "neighborhood": "BrkSide",
+      "overallQual": 6,
+      "yearBuilt": 1947,
+      "grLivArea": 1664,
+      "totalBsmtSF": 1004,
+      "garageCars": 2,
+      "fullBath": 2,
+      "bedroomAbvGr": 3,
+      "predictedPrice": 147668.77
+    },
+    {
+      "id": 1379,
+      "neighborhood": "BrDale",
+      "overallQual": 6,
+      "yearBuilt": 1973,
+      "grLivArea": 987,
+      "totalBsmtSF": 483,
+      "garageCars": 1,
+      "fullBath": 1,
+      "bedroomAbvGr": 2,
+      "predictedPrice": 99335.22
+    }
+  ],
+  "feature_dictionary": {
+    "MSSubClass": {
+      "description": "Identifies the type of dwelling involved in the sale.",
+      "options": [
+        {
+          "code": "20",
+          "meaning": "1-STORY 1946 & NEWER ALL STYLES"
+        },
+        {
+          "code": "30",
+          "meaning": "1-STORY 1945 & OLDER"
+        },
+        {
+          "code": "40",
+          "meaning": "1-STORY W/FINISHED ATTIC ALL AGES"
+        },
+        {
+          "code": "45",
+          "meaning": "1-1/2 STORY - UNFINISHED ALL AGES"
+        },
+        {
+          "code": "50",
+          "meaning": "1-1/2 STORY FINISHED ALL AGES"
+        },
+        {
+          "code": "60",
+          "meaning": "2-STORY 1946 & NEWER"
+        },
+        {
+          "code": "70",
+          "meaning": "2-STORY 1945 & OLDER"
+        },
+        {
+          "code": "75",
+          "meaning": "2-1/2 STORY ALL AGES"
+        },
+        {
+          "code": "80",
+          "meaning": "SPLIT OR MULTI-LEVEL"
+        },
+        {
+          "code": "85",
+          "meaning": "SPLIT FOYER"
+        },
+        {
+          "code": "90",
+          "meaning": "DUPLEX - ALL STYLES AND AGES"
+        },
+        {
+          "code": "120",
+          "meaning": "1-STORY PUD (Planned Unit Development) - 1946 & NEWER"
+        },
+        {
+          "code": "150",
+          "meaning": "1-1/2 STORY PUD - ALL AGES"
+        },
+        {
+          "code": "160",
+          "meaning": "2-STORY PUD - 1946 & NEWER"
+        },
+        {
+          "code": "180",
+          "meaning": "PUD - MULTILEVEL - INCL SPLIT LEV/FOYER"
+        }
+      ]
+    },
+    "MSZoning": {
+      "description": "Identifies the general zoning classification of the sale.",
+      "options": [
+        {
+          "code": "A",
+          "meaning": "Agriculture"
+        },
+        {
+          "code": "C",
+          "meaning": "Commercial"
+        },
+        {
+          "code": "FV",
+          "meaning": "Floating Village Residential"
+        },
+        {
+          "code": "I",
+          "meaning": "Industrial"
+        },
+        {
+          "code": "RH",
+          "meaning": "Residential High Density"
+        },
+        {
+          "code": "RL",
+          "meaning": "Residential Low Density"
+        },
+        {
+          "code": "RP",
+          "meaning": "Residential Low Density Park"
+        },
+        {
+          "code": "RM",
+          "meaning": "Residential Medium Density"
+        }
+      ]
+    },
+    "LotFrontage": {
+      "description": "Linear feet of street connected to property",
+      "options": []
+    },
+    "LotArea": {
+      "description": "Lot size in square feet",
+      "options": []
+    },
+    "Street": {
+      "description": "Type of road access to property",
+      "options": [
+        {
+          "code": "Grvl",
+          "meaning": "Gravel"
+        },
+        {
+          "code": "Pave",
+          "meaning": "Paved"
+        }
+      ]
+    },
+    "Alley": {
+      "description": "Type of alley access to property",
+      "options": [
+        {
+          "code": "Grvl",
+          "meaning": "Gravel"
+        },
+        {
+          "code": "Pave",
+          "meaning": "Paved"
+        },
+        {
+          "code": "NA",
+          "meaning": "No alley access"
+        }
+      ]
+    },
+    "LotShape": {
+      "description": "General shape of property",
+      "options": [
+        {
+          "code": "Reg",
+          "meaning": "Regular"
+        },
+        {
+          "code": "IR1",
+          "meaning": "Slightly irregular"
+        },
+        {
+          "code": "IR2",
+          "meaning": "Moderately Irregular"
+        },
+        {
+          "code": "IR3",
+          "meaning": "Irregular"
+        }
+      ]
+    },
+    "LandContour": {
+      "description": "Flatness of the property",
+      "options": [
+        {
+          "code": "Lvl",
+          "meaning": "Near Flat/Level"
+        },
+        {
+          "code": "Bnk",
+          "meaning": "Banked - Quick and significant rise from street grade to building"
+        },
+        {
+          "code": "HLS",
+          "meaning": "Hillside - Significant slope from side to side"
+        },
+        {
+          "code": "Low",
+          "meaning": "Depression"
+        }
+      ]
+    },
+    "Utilities": {
+      "description": "Type of utilities available",
+      "options": [
+        {
+          "code": "AllPub",
+          "meaning": "All public Utilities (E,G,W,& S)"
+        },
+        {
+          "code": "NoSewr",
+          "meaning": "Electricity, Gas, and Water (Septic Tank)"
+        },
+        {
+          "code": "NoSeWa",
+          "meaning": "Electricity and Gas Only"
+        },
+        {
+          "code": "ELO",
+          "meaning": "Electricity only"
+        }
+      ]
+    },
+    "LotConfig": {
+      "description": "Lot configuration",
+      "options": [
+        {
+          "code": "Inside",
+          "meaning": "Inside lot"
+        },
+        {
+          "code": "Corner",
+          "meaning": "Corner lot"
+        },
+        {
+          "code": "CulDSac",
+          "meaning": "Cul-de-sac"
+        },
+        {
+          "code": "FR2",
+          "meaning": "Frontage on 2 sides of property"
+        },
+        {
+          "code": "FR3",
+          "meaning": "Frontage on 3 sides of property"
+        }
+      ]
+    },
+    "LandSlope": {
+      "description": "Slope of property",
+      "options": [
+        {
+          "code": "Gtl",
+          "meaning": "Gentle slope"
+        },
+        {
+          "code": "Mod",
+          "meaning": "Moderate Slope"
+        },
+        {
+          "code": "Sev",
+          "meaning": "Severe Slope"
+        }
+      ]
+    },
+    "Neighborhood": {
+      "description": "Physical locations within Ames city limits",
+      "options": [
+        {
+          "code": "Blmngtn",
+          "meaning": "Bloomington Heights"
+        },
+        {
+          "code": "Blueste",
+          "meaning": "Bluestem"
+        },
+        {
+          "code": "BrDale",
+          "meaning": "Briardale"
+        },
+        {
+          "code": "BrkSide",
+          "meaning": "Brookside"
+        },
+        {
+          "code": "ClearCr",
+          "meaning": "Clear Creek"
+        },
+        {
+          "code": "CollgCr",
+          "meaning": "College Creek"
+        },
+        {
+          "code": "Crawfor",
+          "meaning": "Crawford"
+        },
+        {
+          "code": "Edwards",
+          "meaning": "Edwards"
+        },
+        {
+          "code": "Gilbert",
+          "meaning": "Gilbert"
+        },
+        {
+          "code": "IDOTRR",
+          "meaning": "Iowa DOT and Rail Road"
+        },
+        {
+          "code": "MeadowV",
+          "meaning": "Meadow Village"
+        },
+        {
+          "code": "Mitchel",
+          "meaning": "Mitchell"
+        },
+        {
+          "code": "Names",
+          "meaning": "North Ames"
+        },
+        {
+          "code": "NoRidge",
+          "meaning": "Northridge"
+        },
+        {
+          "code": "NPkVill",
+          "meaning": "Northpark Villa"
+        }
+      ]
+    },
+    "Condition1": {
+      "description": "Proximity to various conditions",
+      "options": [
+        {
+          "code": "Artery",
+          "meaning": "Adjacent to arterial street"
+        },
+        {
+          "code": "Feedr",
+          "meaning": "Adjacent to feeder street"
+        },
+        {
+          "code": "Norm",
+          "meaning": "Normal"
+        },
+        {
+          "code": "RRNn",
+          "meaning": "Within 200' of North-South Railroad"
+        },
+        {
+          "code": "RRAn",
+          "meaning": "Adjacent to North-South Railroad"
+        },
+        {
+          "code": "PosN",
+          "meaning": "Near positive off-site feature--park, greenbelt, etc."
+        },
+        {
+          "code": "PosA",
+          "meaning": "Adjacent to postive off-site feature"
+        },
+        {
+          "code": "RRNe",
+          "meaning": "Within 200' of East-West Railroad"
+        },
+        {
+          "code": "RRAe",
+          "meaning": "Adjacent to East-West Railroad"
+        }
+      ]
+    },
+    "Condition2": {
+      "description": "Proximity to various conditions (if more than one is present)",
+      "options": [
+        {
+          "code": "Artery",
+          "meaning": "Adjacent to arterial street"
+        },
+        {
+          "code": "Feedr",
+          "meaning": "Adjacent to feeder street"
+        },
+        {
+          "code": "Norm",
+          "meaning": "Normal"
+        },
+        {
+          "code": "RRNn",
+          "meaning": "Within 200' of North-South Railroad"
+        },
+        {
+          "code": "RRAn",
+          "meaning": "Adjacent to North-South Railroad"
+        },
+        {
+          "code": "PosN",
+          "meaning": "Near positive off-site feature--park, greenbelt, etc."
+        },
+        {
+          "code": "PosA",
+          "meaning": "Adjacent to postive off-site feature"
+        },
+        {
+          "code": "RRNe",
+          "meaning": "Within 200' of East-West Railroad"
+        },
+        {
+          "code": "RRAe",
+          "meaning": "Adjacent to East-West Railroad"
+        }
+      ]
+    },
+    "BldgType": {
+      "description": "Type of dwelling",
+      "options": [
+        {
+          "code": "1Fam",
+          "meaning": "Single-family Detached"
+        },
+        {
+          "code": "2FmCon",
+          "meaning": "Two-family Conversion; originally built as one-family dwelling"
+        },
+        {
+          "code": "Duplx",
+          "meaning": "Duplex"
+        },
+        {
+          "code": "TwnhsE",
+          "meaning": "Townhouse End Unit"
+        },
+        {
+          "code": "TwnhsI",
+          "meaning": "Townhouse Inside Unit"
+        }
+      ]
+    },
+    "HouseStyle": {
+      "description": "Style of dwelling",
+      "options": [
+        {
+          "code": "1Story",
+          "meaning": "One story"
+        },
+        {
+          "code": "1.5Fin",
+          "meaning": "One and one-half story: 2nd level finished"
+        },
+        {
+          "code": "1.5Unf",
+          "meaning": "One and one-half story: 2nd level unfinished"
+        },
+        {
+          "code": "2Story",
+          "meaning": "Two story"
+        },
+        {
+          "code": "2.5Fin",
+          "meaning": "Two and one-half story: 2nd level finished"
+        },
+        {
+          "code": "2.5Unf",
+          "meaning": "Two and one-half story: 2nd level unfinished"
+        },
+        {
+          "code": "SFoyer",
+          "meaning": "Split Foyer"
+        },
+        {
+          "code": "SLvl",
+          "meaning": "Split Level"
+        }
+      ]
+    },
+    "OverallQual": {
+      "description": "Rates the overall material and finish of the house",
+      "options": [
+        {
+          "code": "10",
+          "meaning": "Very Excellent"
+        },
+        {
+          "code": "9",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "8",
+          "meaning": "Very Good"
+        },
+        {
+          "code": "7",
+          "meaning": "Good"
+        },
+        {
+          "code": "6",
+          "meaning": "Above Average"
+        },
+        {
+          "code": "5",
+          "meaning": "Average"
+        },
+        {
+          "code": "4",
+          "meaning": "Below Average"
+        },
+        {
+          "code": "3",
+          "meaning": "Fair"
+        },
+        {
+          "code": "2",
+          "meaning": "Poor"
+        },
+        {
+          "code": "1",
+          "meaning": "Very Poor"
+        }
+      ]
+    },
+    "OverallCond": {
+      "description": "Rates the overall condition of the house",
+      "options": [
+        {
+          "code": "10",
+          "meaning": "Very Excellent"
+        },
+        {
+          "code": "9",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "8",
+          "meaning": "Very Good"
+        },
+        {
+          "code": "7",
+          "meaning": "Good"
+        },
+        {
+          "code": "6",
+          "meaning": "Above Average"
+        },
+        {
+          "code": "5",
+          "meaning": "Average"
+        },
+        {
+          "code": "4",
+          "meaning": "Below Average"
+        },
+        {
+          "code": "3",
+          "meaning": "Fair"
+        },
+        {
+          "code": "2",
+          "meaning": "Poor"
+        },
+        {
+          "code": "1",
+          "meaning": "Very Poor"
+        }
+      ]
+    },
+    "YearBuilt": {
+      "description": "Original construction date",
+      "options": []
+    },
+    "YearRemodAdd": {
+      "description": "Remodel date (same as construction date if no remodeling or additions)",
+      "options": []
+    },
+    "RoofStyle": {
+      "description": "Type of roof",
+      "options": [
+        {
+          "code": "Flat",
+          "meaning": "Flat"
+        },
+        {
+          "code": "Gable",
+          "meaning": "Gable"
+        },
+        {
+          "code": "Gambrel",
+          "meaning": "Gabrel (Barn)"
+        },
+        {
+          "code": "Hip",
+          "meaning": "Hip"
+        },
+        {
+          "code": "Mansard",
+          "meaning": "Mansard"
+        },
+        {
+          "code": "Shed",
+          "meaning": "Shed"
+        }
+      ]
+    },
+    "RoofMatl": {
+      "description": "Roof material",
+      "options": [
+        {
+          "code": "ClyTile",
+          "meaning": "Clay or Tile"
+        },
+        {
+          "code": "CompShg",
+          "meaning": "Standard (Composite) Shingle"
+        },
+        {
+          "code": "Membran",
+          "meaning": "Membrane"
+        },
+        {
+          "code": "Metal",
+          "meaning": "Metal"
+        },
+        {
+          "code": "Roll",
+          "meaning": "Roll"
+        },
+        {
+          "code": "Tar&Grv",
+          "meaning": "Gravel & Tar"
+        },
+        {
+          "code": "WdShake",
+          "meaning": "Wood Shakes"
+        },
+        {
+          "code": "WdShngl",
+          "meaning": "Wood Shingles"
+        }
+      ]
+    },
+    "Exterior1st": {
+      "description": "Exterior covering on house",
+      "options": [
+        {
+          "code": "AsbShng",
+          "meaning": "Asbestos Shingles"
+        },
+        {
+          "code": "AsphShn",
+          "meaning": "Asphalt Shingles"
+        },
+        {
+          "code": "BrkComm",
+          "meaning": "Brick Common"
+        },
+        {
+          "code": "BrkFace",
+          "meaning": "Brick Face"
+        },
+        {
+          "code": "CBlock",
+          "meaning": "Cinder Block"
+        },
+        {
+          "code": "CemntBd",
+          "meaning": "Cement Board"
+        },
+        {
+          "code": "HdBoard",
+          "meaning": "Hard Board"
+        },
+        {
+          "code": "ImStucc",
+          "meaning": "Imitation Stucco"
+        },
+        {
+          "code": "MetalSd",
+          "meaning": "Metal Siding"
+        },
+        {
+          "code": "Other",
+          "meaning": "Other"
+        },
+        {
+          "code": "Plywood",
+          "meaning": "Plywood"
+        },
+        {
+          "code": "PreCast",
+          "meaning": "PreCast"
+        },
+        {
+          "code": "Stone",
+          "meaning": "Stone"
+        },
+        {
+          "code": "Stucco",
+          "meaning": "Stucco"
+        },
+        {
+          "code": "VinylSd",
+          "meaning": "Vinyl Siding"
+        }
+      ]
+    },
+    "Exterior2nd": {
+      "description": "Exterior covering on house (if more than one material)",
+      "options": [
+        {
+          "code": "AsbShng",
+          "meaning": "Asbestos Shingles"
+        },
+        {
+          "code": "AsphShn",
+          "meaning": "Asphalt Shingles"
+        },
+        {
+          "code": "BrkComm",
+          "meaning": "Brick Common"
+        },
+        {
+          "code": "BrkFace",
+          "meaning": "Brick Face"
+        },
+        {
+          "code": "CBlock",
+          "meaning": "Cinder Block"
+        },
+        {
+          "code": "CemntBd",
+          "meaning": "Cement Board"
+        },
+        {
+          "code": "HdBoard",
+          "meaning": "Hard Board"
+        },
+        {
+          "code": "ImStucc",
+          "meaning": "Imitation Stucco"
+        },
+        {
+          "code": "MetalSd",
+          "meaning": "Metal Siding"
+        },
+        {
+          "code": "Other",
+          "meaning": "Other"
+        },
+        {
+          "code": "Plywood",
+          "meaning": "Plywood"
+        },
+        {
+          "code": "PreCast",
+          "meaning": "PreCast"
+        },
+        {
+          "code": "Stone",
+          "meaning": "Stone"
+        },
+        {
+          "code": "Stucco",
+          "meaning": "Stucco"
+        },
+        {
+          "code": "VinylSd",
+          "meaning": "Vinyl Siding"
+        }
+      ]
+    },
+    "MasVnrType": {
+      "description": "Masonry veneer type",
+      "options": [
+        {
+          "code": "BrkCmn",
+          "meaning": "Brick Common"
+        },
+        {
+          "code": "BrkFace",
+          "meaning": "Brick Face"
+        },
+        {
+          "code": "CBlock",
+          "meaning": "Cinder Block"
+        },
+        {
+          "code": "None",
+          "meaning": "None"
+        },
+        {
+          "code": "Stone",
+          "meaning": "Stone"
+        }
+      ]
+    },
+    "MasVnrArea": {
+      "description": "Masonry veneer area in square feet",
+      "options": []
+    },
+    "ExterQual": {
+      "description": "Evaluates the quality of the material on the exterior",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Average/Typical"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor"
+        }
+      ]
+    },
+    "ExterCond": {
+      "description": "Evaluates the present condition of the material on the exterior",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Average/Typical"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor"
+        }
+      ]
+    },
+    "Foundation": {
+      "description": "Type of foundation",
+      "options": [
+        {
+          "code": "BrkTil",
+          "meaning": "Brick & Tile"
+        },
+        {
+          "code": "CBlock",
+          "meaning": "Cinder Block"
+        },
+        {
+          "code": "PConc",
+          "meaning": "Poured Contrete"
+        },
+        {
+          "code": "Slab",
+          "meaning": "Slab"
+        },
+        {
+          "code": "Stone",
+          "meaning": "Stone"
+        },
+        {
+          "code": "Wood",
+          "meaning": "Wood"
+        }
+      ]
+    },
+    "BsmtQual": {
+      "description": "Evaluates the height of the basement",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent (100+ inches)"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good (90-99 inches)"
+        },
+        {
+          "code": "TA",
+          "meaning": "Typical (80-89 inches)"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair (70-79 inches)"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor (<70 inches"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Basement"
+        }
+      ]
+    },
+    "BsmtCond": {
+      "description": "Evaluates the general condition of the basement",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Typical - slight dampness allowed"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair - dampness or some cracking or settling"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor - Severe cracking, settling, or wetness"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Basement"
+        }
+      ]
+    },
+    "BsmtExposure": {
+      "description": "Refers to walkout or garden level walls",
+      "options": [
+        {
+          "code": "Gd",
+          "meaning": "Good Exposure"
+        },
+        {
+          "code": "Av",
+          "meaning": "Average Exposure (split levels or foyers typically score average or above)"
+        },
+        {
+          "code": "Mn",
+          "meaning": "Mimimum Exposure"
+        },
+        {
+          "code": "No",
+          "meaning": "No Exposure"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Basement"
+        }
+      ]
+    },
+    "BsmtFinType1": {
+      "description": "Rating of basement finished area",
+      "options": [
+        {
+          "code": "GLQ",
+          "meaning": "Good Living Quarters"
+        },
+        {
+          "code": "ALQ",
+          "meaning": "Average Living Quarters"
+        },
+        {
+          "code": "BLQ",
+          "meaning": "Below Average Living Quarters"
+        },
+        {
+          "code": "Rec",
+          "meaning": "Average Rec Room"
+        },
+        {
+          "code": "LwQ",
+          "meaning": "Low Quality"
+        },
+        {
+          "code": "Unf",
+          "meaning": "Unfinshed"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Basement"
+        }
+      ]
+    },
+    "BsmtFinSF1": {
+      "description": "Type 1 finished square feet",
+      "options": []
+    },
+    "BsmtFinType2": {
+      "description": "Rating of basement finished area (if multiple types)",
+      "options": [
+        {
+          "code": "GLQ",
+          "meaning": "Good Living Quarters"
+        },
+        {
+          "code": "ALQ",
+          "meaning": "Average Living Quarters"
+        },
+        {
+          "code": "BLQ",
+          "meaning": "Below Average Living Quarters"
+        },
+        {
+          "code": "Rec",
+          "meaning": "Average Rec Room"
+        },
+        {
+          "code": "LwQ",
+          "meaning": "Low Quality"
+        },
+        {
+          "code": "Unf",
+          "meaning": "Unfinshed"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Basement"
+        }
+      ]
+    },
+    "BsmtFinSF2": {
+      "description": "Type 2 finished square feet",
+      "options": []
+    },
+    "BsmtUnfSF": {
+      "description": "Unfinished square feet of basement area",
+      "options": []
+    },
+    "TotalBsmtSF": {
+      "description": "Total square feet of basement area",
+      "options": []
+    },
+    "Heating": {
+      "description": "Type of heating",
+      "options": [
+        {
+          "code": "Floor",
+          "meaning": "Floor Furnace"
+        },
+        {
+          "code": "GasA",
+          "meaning": "Gas forced warm air furnace"
+        },
+        {
+          "code": "GasW",
+          "meaning": "Gas hot water or steam heat"
+        },
+        {
+          "code": "Grav",
+          "meaning": "Gravity furnace"
+        },
+        {
+          "code": "OthW",
+          "meaning": "Hot water or steam heat other than gas"
+        },
+        {
+          "code": "Wall",
+          "meaning": "Wall furnace"
+        }
+      ]
+    },
+    "HeatingQC": {
+      "description": "Heating quality and condition",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Average/Typical"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor"
+        }
+      ]
+    },
+    "CentralAir": {
+      "description": "Central air conditioning",
+      "options": [
+        {
+          "code": "N",
+          "meaning": "No"
+        },
+        {
+          "code": "Y",
+          "meaning": "Yes"
+        }
+      ]
+    },
+    "Electrical": {
+      "description": "Electrical system",
+      "options": [
+        {
+          "code": "SBrkr",
+          "meaning": "Standard Circuit Breakers & Romex"
+        },
+        {
+          "code": "FuseA",
+          "meaning": "Fuse Box over 60 AMP and all Romex wiring (Average)"
+        },
+        {
+          "code": "FuseF",
+          "meaning": "60 AMP Fuse Box and mostly Romex wiring (Fair)"
+        },
+        {
+          "code": "FuseP",
+          "meaning": "60 AMP Fuse Box and mostly knob & tube wiring (poor)"
+        },
+        {
+          "code": "Mix",
+          "meaning": "Mixed"
+        }
+      ]
+    },
+    "1stFlrSF": {
+      "description": "First Floor square feet",
+      "options": []
+    },
+    "2ndFlrSF": {
+      "description": "Second floor square feet",
+      "options": []
+    },
+    "LowQualFinSF": {
+      "description": "Low quality finished square feet (all floors)",
+      "options": []
+    },
+    "GrLivArea": {
+      "description": "Above grade (ground) living area square feet",
+      "options": []
+    },
+    "BsmtFullBath": {
+      "description": "Basement full bathrooms",
+      "options": []
+    },
+    "BsmtHalfBath": {
+      "description": "Basement half bathrooms",
+      "options": []
+    },
+    "FullBath": {
+      "description": "Full bathrooms above grade",
+      "options": []
+    },
+    "HalfBath": {
+      "description": "Half baths above grade",
+      "options": []
+    },
+    "Bedroom": {
+      "description": "Bedrooms above grade (does NOT include basement bedrooms)",
+      "options": []
+    },
+    "Kitchen": {
+      "description": "Kitchens above grade",
+      "options": []
+    },
+    "KitchenQual": {
+      "description": "Kitchen quality",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Typical/Average"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor"
+        }
+      ]
+    },
+    "TotRmsAbvGrd": {
+      "description": "Total rooms above grade (does not include bathrooms)",
+      "options": []
+    },
+    "Functional": {
+      "description": "Home functionality (Assume typical unless deductions are warranted)",
+      "options": [
+        {
+          "code": "Typ",
+          "meaning": "Typical Functionality"
+        },
+        {
+          "code": "Min1",
+          "meaning": "Minor Deductions 1"
+        },
+        {
+          "code": "Min2",
+          "meaning": "Minor Deductions 2"
+        },
+        {
+          "code": "Mod",
+          "meaning": "Moderate Deductions"
+        },
+        {
+          "code": "Maj1",
+          "meaning": "Major Deductions 1"
+        },
+        {
+          "code": "Maj2",
+          "meaning": "Major Deductions 2"
+        },
+        {
+          "code": "Sev",
+          "meaning": "Severely Damaged"
+        },
+        {
+          "code": "Sal",
+          "meaning": "Salvage only"
+        }
+      ]
+    },
+    "Fireplaces": {
+      "description": "Number of fireplaces",
+      "options": []
+    },
+    "FireplaceQu": {
+      "description": "Fireplace quality",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent - Exceptional Masonry Fireplace"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good - Masonry Fireplace in main level"
+        },
+        {
+          "code": "TA",
+          "meaning": "Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair - Prefabricated Fireplace in basement"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor - Ben Franklin Stove"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Fireplace"
+        }
+      ]
+    },
+    "GarageType": {
+      "description": "Garage location",
+      "options": [
+        {
+          "code": "2Types",
+          "meaning": "More than one type of garage"
+        },
+        {
+          "code": "Attchd",
+          "meaning": "Attached to home"
+        },
+        {
+          "code": "Basment",
+          "meaning": "Basement Garage"
+        },
+        {
+          "code": "BuiltIn",
+          "meaning": "Built-In (Garage part of house - typically has room above garage)"
+        },
+        {
+          "code": "CarPort",
+          "meaning": "Car Port"
+        },
+        {
+          "code": "Detchd",
+          "meaning": "Detached from home"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Garage"
+        }
+      ]
+    },
+    "GarageYrBlt": {
+      "description": "Year garage was built",
+      "options": []
+    },
+    "GarageFinish": {
+      "description": "Interior finish of the garage",
+      "options": [
+        {
+          "code": "Fin",
+          "meaning": "Finished"
+        },
+        {
+          "code": "RFn",
+          "meaning": "Rough Finished"
+        },
+        {
+          "code": "Unf",
+          "meaning": "Unfinished"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Garage"
+        }
+      ]
+    },
+    "GarageCars": {
+      "description": "Size of garage in car capacity",
+      "options": []
+    },
+    "GarageArea": {
+      "description": "Size of garage in square feet",
+      "options": []
+    },
+    "GarageQual": {
+      "description": "Garage quality",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Typical/Average"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Garage"
+        }
+      ]
+    },
+    "GarageCond": {
+      "description": "Garage condition",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Typical/Average"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "Po",
+          "meaning": "Poor"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Garage"
+        }
+      ]
+    },
+    "PavedDrive": {
+      "description": "Paved driveway",
+      "options": [
+        {
+          "code": "Y",
+          "meaning": "Paved"
+        },
+        {
+          "code": "P",
+          "meaning": "Partial Pavement"
+        },
+        {
+          "code": "N",
+          "meaning": "Dirt/Gravel"
+        }
+      ]
+    },
+    "WoodDeckSF": {
+      "description": "Wood deck area in square feet",
+      "options": []
+    },
+    "OpenPorchSF": {
+      "description": "Open porch area in square feet",
+      "options": []
+    },
+    "EnclosedPorch": {
+      "description": "Enclosed porch area in square feet",
+      "options": []
+    },
+    "3SsnPorch": {
+      "description": "Three season porch area in square feet",
+      "options": []
+    },
+    "ScreenPorch": {
+      "description": "Screen porch area in square feet",
+      "options": []
+    },
+    "PoolArea": {
+      "description": "Pool area in square feet",
+      "options": []
+    },
+    "PoolQC": {
+      "description": "Pool quality",
+      "options": [
+        {
+          "code": "Ex",
+          "meaning": "Excellent"
+        },
+        {
+          "code": "Gd",
+          "meaning": "Good"
+        },
+        {
+          "code": "TA",
+          "meaning": "Average/Typical"
+        },
+        {
+          "code": "Fa",
+          "meaning": "Fair"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Pool"
+        }
+      ]
+    },
+    "Fence": {
+      "description": "Fence quality",
+      "options": [
+        {
+          "code": "GdPrv",
+          "meaning": "Good Privacy"
+        },
+        {
+          "code": "MnPrv",
+          "meaning": "Minimum Privacy"
+        },
+        {
+          "code": "GdWo",
+          "meaning": "Good Wood"
+        },
+        {
+          "code": "MnWw",
+          "meaning": "Minimum Wood/Wire"
+        },
+        {
+          "code": "NA",
+          "meaning": "No Fence"
+        }
+      ]
+    },
+    "MiscFeature": {
+      "description": "Miscellaneous feature not covered in other categories",
+      "options": [
+        {
+          "code": "Elev",
+          "meaning": "Elevator"
+        },
+        {
+          "code": "Gar2",
+          "meaning": "2nd Garage (if not described in garage section)"
+        },
+        {
+          "code": "Othr",
+          "meaning": "Other"
+        },
+        {
+          "code": "Shed",
+          "meaning": "Shed (over 100 SF)"
+        },
+        {
+          "code": "TenC",
+          "meaning": "Tennis Court"
+        },
+        {
+          "code": "NA",
+          "meaning": "None"
+        }
+      ]
+    },
+    "MiscVal": {
+      "description": "$Value of miscellaneous feature",
+      "options": []
+    },
+    "MoSold": {
+      "description": "Month Sold (MM)",
+      "options": []
+    },
+    "YrSold": {
+      "description": "Year Sold (YYYY)",
+      "options": []
+    },
+    "SaleType": {
+      "description": "Type of sale",
+      "options": [
+        {
+          "code": "WD",
+          "meaning": "Warranty Deed - Conventional"
+        },
+        {
+          "code": "CWD",
+          "meaning": "Warranty Deed - Cash"
+        },
+        {
+          "code": "VWD",
+          "meaning": "Warranty Deed - VA Loan"
+        },
+        {
+          "code": "New",
+          "meaning": "Home just constructed and sold"
+        },
+        {
+          "code": "COD",
+          "meaning": "Court Officer Deed/Estate"
+        },
+        {
+          "code": "Con",
+          "meaning": "Contract 15% Down payment regular terms"
+        },
+        {
+          "code": "ConLw",
+          "meaning": "Contract Low Down payment and low interest"
+        },
+        {
+          "code": "ConLI",
+          "meaning": "Contract Low Interest"
+        },
+        {
+          "code": "ConLD",
+          "meaning": "Contract Low Down"
+        },
+        {
+          "code": "Oth",
+          "meaning": "Other"
+        }
+      ]
+    },
+    "SaleCondition": {
+      "description": "Condition of sale",
+      "options": [
+        {
+          "code": "Normal",
+          "meaning": "Normal Sale"
+        },
+        {
+          "code": "Abnorml",
+          "meaning": "Abnormal Sale - trade, foreclosure, short sale"
+        },
+        {
+          "code": "AdjLand",
+          "meaning": "Adjoining Land Purchase"
+        },
+        {
+          "code": "Alloca",
+          "meaning": "Allocation - two linked properties with separate deeds, typically condo with a garage unit"
+        },
+        {
+          "code": "Family",
+          "meaning": "Sale between family members"
+        },
+        {
+          "code": "Partial",
+          "meaning": "Home was not completed when last assessed (associated with New Homes)"
+        }
+      ]
+    }
+  }
+}

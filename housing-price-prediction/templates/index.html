@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ames Real Estate AI | Valuation & Analytics Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-house-chimney-window"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Ames Valuation AI</span>
+          <span class="brand-subtitle">Enterprise Machine Learning Platform</span>
+        </div>
+      </div>
+
+      <nav class="nav-tabs">
+        <button class="nav-btn active" data-tab="tab-predictor">
+          <i class="fa-solid fa-calculator"></i> Property Estimator
+        </button>
+        <button class="nav-btn" data-tab="tab-eda">
+          <i class="fa-solid fa-chart-pie"></i> Market Analytics
+        </button>
+        <button class="nav-btn" data-tab="tab-test-data">
+          <i class="fa-solid fa-table-list"></i> Test Predictions (292)
+        </button>
+        <button class="nav-btn" data-tab="tab-models">
+          <i class="fa-solid fa-network-wired"></i> Model Benchmarks
+        </button>
+        <button class="nav-btn" data-tab="tab-dictionary">
+          <i class="fa-solid fa-book-bookmark"></i> Data Dictionary
+        </button>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="/api/download-predictions" class="btn btn-outline" download>
+          <i class="fa-solid fa-download"></i> Export CSV
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Header Banner -->
+  <section class="hero-banner">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span> Production Ensemble Model Active (CV RMSLE: 0.1279 | R²: 0.887)
+      </div>
+      <h1 class="hero-title">Precision Residential Valuation & Ames Market Intelligence</h1>
+      <p class="hero-desc">
+        Trained on the comprehensive 80-feature Ames Housing dataset utilizing regularized linear models, 
+        gradient boosted decision trees (XGBoost & LightGBM), and a weighted stacking ensemble.
+      </p>
+
+      <div class="kpi-strip">
+        <div class="kpi-card">
+          <span class="kpi-label">Training Homes</span>
+          <span class="kpi-value">1,168</span>
+          <span class="kpi-sub">81 Columns</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Test Set Evaluated</span>
+          <span class="kpi-value">292</span>
+          <span class="kpi-sub">Predictions Ready</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Mean Sale Price</span>
+          <span class="kpi-value">$181,477</span>
+          <span class="kpi-sub">Median: $163,995</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Best Model MAE</span>
+          <span class="kpi-value">$15,159</span>
+          <span class="kpi-sub">Ensemble Blend</span>
+        </div>
+        <div class="kpi-card highlight">
+          <span class="kpi-label">Primary Metric</span>
+          <span class="kpi-value">0.1279</span>
+          <span class="kpi-sub">RMSLE on 5-Fold CV</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- TAB 1: PROPERTY VALUATION ESTIMATOR -->
+    <section id="tab-predictor" class="tab-pane active">
+      
+      <!-- Preset Showcase -->
+      <div class="presets-container card">
+        <div class="presets-header">
+          <span class="badge badge-primary"><i class="fa-solid fa-wand-magic-sparkles"></i> 1-Click Showcase</span>
+          <h3>Quick-Load Representative Home Profiles:</h3>
+        </div>
+        <div class="preset-buttons">
+          <button class="preset-pill" onclick="loadPreset('luxury')">
+            <i class="fa-solid fa-gem text-indigo"></i>
+            <div>
+              <strong>Northridge Luxury Estate</strong>
+              <small>2,800 sqft • Qual 9 • 2008 Built • 3-Car</small>
+            </div>
+          </button>
+          <button class="preset-pill" onclick="loadPreset('suburban')">
+            <i class="fa-solid fa-house-chimney text-emerald"></i>
+            <div>
+              <strong>College Creek Family Home</strong>
+              <small>1,850 sqft • Qual 7 • 2003 Built • 2-Car</small>
+            </div>
+          </button>
+          <button class="preset-pill" onclick="loadPreset('craftsman')">
+            <i class="fa-solid fa-tree text-amber"></i>
+            <div>
+              <strong>Old Town Historic Craftsman</strong>
+              <small>1,450 sqft • Qual 6 • 1938 Built • Detached</small>
+            </div>
+          </button>
+          <button class="preset-pill" onclick="loadPreset('starter')">
+            <i class="fa-solid fa-key text-cyan"></i>
+            <div>
+              <strong>Ames Starter Bungalow</strong>
+              <small>1,050 sqft • Qual 5 • 1965 Built • 1-Car</small>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="predictor-grid">
+        <!-- Form Column -->
+        <div class="form-container card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-sliders"></i> Property Attributes & Specifications
+            </div>
+            <button class="btn btn-sm btn-ghost" onclick="resetForm()">
+              <i class="fa-solid fa-arrow-rotate-left"></i> Reset
+            </button>
+          </div>
+
+          <form id="prediction-form" onsubmit="handlePredict(event)">
+            
+            <!-- Section 1: Fundamentals -->
+            <div class="form-section">
+              <h4 class="section-title"><i class="fa-solid fa-map-location-dot"></i> Location & Core Quality</h4>
+              
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="Neighborhood">Ames Neighborhood</label>
+                  <select id="Neighborhood" name="Neighborhood" class="form-control" required>
+                    <option value="CollgCr">College Creek (CollgCr)</option>
+                    <option value="Veenker">Veenker</option>
+                    <option value="Crawfor">Crawford (Crawfor)</option>
+                    <option value="NoRidge">Northridge (NoRidge)</option>
+                    <option value="Mitchel">Mitchell (Mitchel)</option>
+                    <option value="Somerst">Somerset (Somerst)</option>
+                    <option value="NWAmes">Northwest Ames (NWAmes)</option>
+                    <option value="OldTown">Old Town (OldTown)</option>
+                    <option value="BrkSide">Brookside (BrkSide)</option>
+                    <option value="Sawyer">Sawyer</option>
+                    <option value="NridgHt">Northridge Heights (NridgHt)</option>
+                    <option value="NAmes">North Ames (NAmes)</option>
+                    <option value="SawyerW">Sawyer West (SawyerW)</option>
+                    <option value="IDOTRR">Iowa DOT and Rail Road (IDOTRR)</option>
+                    <option value="MeadowV">Meadow Village (MeadowV)</option>
+                    <option value="Edwards">Edwards</option>
+                    <option value="Timber">Timberland (Timber)</option>
+                    <option value="Gilbert">Gilbert</option>
+                    <option value="StoneBr">Stone Brook (StoneBr)</option>
+                    <option value="ClearCr">Clear Creek (ClearCr)</option>
+                    <option value="NPkVill">Northpark Villa (NPkVill)</option>
+                    <option value="Blmngtn">Bloomington Heights (Blmngtn)</option>
+                    <option value="BrDale">Briardale (BrDale)</option>
+                    <option value="SWISU">South & West of ISU (SWISU)</option>
+                    <option value="Blueste">Bluestem (Blueste)</option>
+                  </select>
+                </div>
+
+                <div class="form-group col-6">
+                  <label for="OverallQual">Overall Material & Finish Quality (1-10)</label>
+                  <div class="range-with-val">
+                    <input type="range" id="OverallQual" name="OverallQual" min="1" max="10" value="7" class="slider" oninput="document.getElementById('qual-val').innerText = this.value">
+                    <span id="qual-val" class="slider-badge">7</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-4">
+                  <label for="OverallCond">Overall Condition (1-9)</label>
+                  <select id="OverallCond" name="OverallCond" class="form-control">
+                    <option value="3">3 - Poor</option>
+                    <option value="5" selected>5 - Average</option>
+                    <option value="6">6 - Above Average</option>
+                    <option value="7">7 - Good</option>
+                    <option value="8">8 - Very Good</option>
+                    <option value="9">9 - Excellent</option>
+                  </select>
+                </div>
+                <div class="form-group col-4">
+                  <label for="YearBuilt">Year Built</label>
+                  <input type="number" id="YearBuilt" name="YearBuilt" class="form-control" min="1875" max="2024" value="2003" required>
+                </div>
+                <div class="form-group col-4">
+                  <label for="YearRemodAdd">Year Remodeled</label>
+                  <input type="number" id="YearRemodAdd" name="YearRemodAdd" class="form-control" min="1950" max="2024" value="2004" required>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 2: Square Footage & Dimensions -->
+            <div class="form-section">
+              <h4 class="section-title"><i class="fa-solid fa-ruler-combined"></i> Dimensions & Square Footage</h4>
+              
+              <div class="form-row">
+                <div class="form-group col-4">
+                  <label for="GrLivArea">Above-Ground Living Area (sq ft)</label>
+                  <input type="number" id="GrLivArea" name="GrLivArea" class="form-control" min="300" max="6000" value="1850" required onchange="syncFloorAreas()">
+                </div>
+                <div class="form-group col-4">
+                  <label for="TotalBsmtSF">Total Basement Area (sq ft)</label>
+                  <input type="number" id="TotalBsmtSF" name="TotalBsmtSF" class="form-control" min="0" max="4000" value="950" required>
+                </div>
+                <div class="form-group col-4">
+                  <label for="LotArea">Lot Area (sq ft)</label>
+                  <input type="number" id="LotArea" name="LotArea" class="form-control" min="1000" max="100000" value="9600" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="firstFlrSF">1st Floor Finished SF</label>
+                  <input type="number" id="firstFlrSF" name="firstFlrSF" class="form-control" min="300" max="4000" value="1050">
+                </div>
+                <div class="form-group col-6">
+                  <label for="secondFlrSF">2nd Floor Finished SF</label>
+                  <input type="number" id="secondFlrSF" name="secondFlrSF" class="form-control" min="0" max="3000" value="800">
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 3: Interior Rooms & Quality -->
+            <div class="form-section">
+              <h4 class="section-title"><i class="fa-solid fa-couch"></i> Interior Layout & Amenities</h4>
+
+              <div class="form-row">
+                <div class="form-group col-3">
+                  <label for="BedroomAbvGr">Bedrooms</label>
+                  <input type="number" id="BedroomAbvGr" name="BedroomAbvGr" class="form-control" min="1" max="8" value="3">
+                </div>
+                <div class="form-group col-3">
+                  <label for="FullBath">Full Baths</label>
+                  <input type="number" id="FullBath" name="FullBath" class="form-control" min="1" max="5" value="2">
+                </div>
+                <div class="form-group col-3">
+                  <label for="HalfBath">Half Baths</label>
+                  <input type="number" id="HalfBath" name="HalfBath" class="form-control" min="0" max="3" value="1">
+                </div>
+                <div class="form-group col-3">
+                  <label for="TotRmsAbvGrd">Total Rooms Abv Grd</label>
+                  <input type="number" id="TotRmsAbvGrd" name="TotRmsAbvGrd" class="form-control" min="3" max="14" value="7">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-4">
+                  <label for="KitchenQual">Kitchen Quality</label>
+                  <select id="KitchenQual" name="KitchenQual" class="form-control">
+                    <option value="Ex">Ex - Excellent</option>
+                    <option value="Gd" selected>Gd - Good</option>
+                    <option value="TA">TA - Typical/Average</option>
+                    <option value="Fa">Fa - Fair</option>
+                  </select>
+                </div>
+                <div class="form-group col-4">
+                  <label for="Fireplaces">Fireplaces</label>
+                  <input type="number" id="Fireplaces" name="Fireplaces" class="form-control" min="0" max="4" value="1">
+                </div>
+                <div class="form-group col-4">
+                  <label for="CentralAir">Central Air Conditioning</label>
+                  <select id="CentralAir" name="CentralAir" class="form-control">
+                    <option value="Y" selected>Yes (Equipped)</option>
+                    <option value="N">No</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 4: Garage & Exterior -->
+            <div class="form-section">
+              <h4 class="section-title"><i class="fa-solid fa-warehouse"></i> Garage & Exterior</h4>
+
+              <div class="form-row">
+                <div class="form-group col-4">
+                  <label for="GarageCars">Garage Car Capacity</label>
+                  <input type="number" id="GarageCars" name="GarageCars" class="form-control" min="0" max="5" value="2" onchange="syncGarageArea()">
+                </div>
+                <div class="form-group col-4">
+                  <label for="GarageArea">Garage Area (sq ft)</label>
+                  <input type="number" id="GarageArea" name="GarageArea" class="form-control" min="0" max="1500" value="500">
+                </div>
+                <div class="form-group col-4">
+                  <label for="WoodDeckSF">Wood Deck SF</label>
+                  <input type="number" id="WoodDeckSF" name="WoodDeckSF" class="form-control" min="0" max="1000" value="140">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-submit-row">
+              <button type="submit" class="btn btn-primary btn-lg" id="predict-btn">
+                <i class="fa-solid fa-sparkles"></i> Calculate Valuation
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Result Column -->
+        <div class="result-container">
+          
+          <!-- Valuation Result Card -->
+          <div class="valuation-card card">
+            <div class="card-header">
+              <div class="card-title">
+                <i class="fa-solid fa-certificate text-emerald"></i> Real-Time AI Valuation
+              </div>
+              <span class="badge badge-success" id="model-tag">Ensemble Blend</span>
+            </div>
+
+            <div class="valuation-body">
+              <div class="price-callout">
+                <span class="currency-symbol">$</span>
+                <span class="main-price" id="res-price">218,500</span>
+              </div>
+
+              <div class="confidence-band">
+                <span class="confidence-title">Expected Range (90% Confidence Interval):</span>
+                <div class="confidence-range" id="res-range">
+                  $204,300 — $232,700
+                </div>
+              </div>
+
+              <div class="valuation-stats-row">
+                <div class="val-stat">
+                  <span class="val-stat-label">Estimated $/Sq.Ft</span>
+                  <span class="val-stat-value" id="res-ppsqft">$118.10</span>
+                </div>
+                <div class="val-stat">
+                  <span class="val-stat-label">Total Sq.Ft (Inc. Bsmt)</span>
+                  <span class="val-stat-value" id="res-totalsf">2,800 SF</span>
+                </div>
+                <div class="val-stat">
+                  <span class="val-stat-label">Quality Score</span>
+                  <span class="val-stat-value" id="res-qual">7 / 10</span>
+                </div>
+              </div>
+
+              <!-- Multi-Model Consensus Chart -->
+              <div class="consensus-container">
+                <h4><i class="fa-solid fa-layer-group"></i> Multi-Model Valuation Consensus</h4>
+                <div class="chart-wrapper-sm">
+                  <canvas id="modelConsensusChart"></canvas>
+                </div>
+              </div>
+
+              <!-- Key Value Contributors -->
+              <div class="contributors-box">
+                <h4><i class="fa-solid fa-circle-check text-emerald"></i> Primary Valuation Catalysts</h4>
+                <ul class="contributor-list" id="res-catalysts">
+                  <li><i class="fa-solid fa-arrow-trend-up text-emerald"></i> High Overall Material Quality (Quality score acts as exponential multiplier)</li>
+                  <li><i class="fa-solid fa-arrow-trend-up text-emerald"></i> Generous Total Square Footage (Above Grade + Finished Basement)</li>
+                  <li><i class="fa-solid fa-arrow-trend-up text-emerald"></i> 2-Car Garage with Central Air Conditioning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Tip Card -->
+          <div class="card tip-card">
+            <h4><i class="fa-solid fa-lightbulb text-amber"></i> Valuation Methodology Note</h4>
+            <p>
+              The system estimates sale prices on a logarithmic scale (\(\log(1 + y)\)) to stabilize price variance across entry-level and luxury tiers. 
+              The predictions are ensembled using out-of-fold cross-validated performance weights from XGBoost (25%), LightGBM (25%), Gradient Boosting (25%), Ridge (10%), and Lasso (10%).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: EXPLORATORY DATA ANALYSIS (EDA) -->
+    <section id="tab-eda" class="tab-pane">
+      <div class="section-intro">
+        <h2>Ames Housing Market Exploratory Data Analysis</h2>
+        <p>Comprehensive statistical breakdown of 1,168 residential transactions across 25 Ames neighborhoods.</p>
+      </div>
+
+      <div class="eda-grid">
+        
+        <!-- Chart 1: Price Distribution -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-chart-column"></i> Sale Price Distribution & Skewness
+            </div>
+            <span class="badge badge-info">Right-Skewed (\(\gamma_1 = 1.88\))</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="priceDistChart"></canvas>
+          </div>
+          <p class="chart-desc">
+            Raw sale prices exhibit notable right-skewness. A logarithmic transformation (\(\log(SalePrice)\)) normalizes residuals and optimizes RMSLE.
+          </p>
+        </div>
+
+        <!-- Chart 2: Top Neighborhoods -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-city"></i> Neighborhood Median Sale Prices (Ames, IA)
+            </div>
+            <span class="badge badge-primary">25 Locations</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="neighborhoodChart"></canvas>
+          </div>
+          <p class="chart-desc">
+            Northridge Heights, Stone Brook, and Northridge lead Ames luxury pricing, while Old Town and Iowa DOT Railroad represent entry-tier values.
+          </p>
+        </div>
+
+        <!-- Chart 3: Quality vs Price -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-arrow-trend-up"></i> Overall Quality vs. Median Price
+            </div>
+            <span class="badge badge-success">Top Predictor</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="qualityPriceChart"></canvas>
+          </div>
+          <p class="chart-desc">
+            Overall Material and Finish Quality demonstrates an exponential non-linear relationship with sale price, accounting for over 30% of model feature weight.
+          </p>
+        </div>
+
+        <!-- Chart 4: Living Area vs Price Scatter -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-arrows-to-dot"></i> Living Area (Sq Ft) vs. Sale Price
+            </div>
+            <span class="badge badge-indigo">400 Sample Points</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="livingAreaScatterChart"></canvas>
+          </div>
+          <p class="chart-desc">
+            Strong linear correlation (\(r = 0.71\)) between above-ground living area and price, with higher quality grades (lighter dots) consistently command premium margins.
+          </p>
+        </div>
+
+        <!-- Chart 5: Historical Construction Eras -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-calendar-days"></i> Average Sale Price by Construction Decade
+            </div>
+            <span class="badge badge-secondary">1870s - 2010s</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="decadeChart"></canvas>
+          </div>
+          <p class="chart-desc">
+            Homes built post-2000 command a sharp premium ($240k+ average) compared to pre-1950s inventory, reflecting modern building codes, insulation, and room layout standards.
+          </p>
+        </div>
+
+        <!-- Chart 6: Top Numerical Correlations -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-network-wired"></i> Top Pearson Correlation with SalePrice
+            </div>
+            <span class="badge badge-amber">Top 10 Metrics</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="correlationChart"></canvas>
+          </div>
+          <p class="chart-desc">
+            Overall Quality, Total Living Area, Garage Cars/Area, and Basement Finished Area display the highest positive correlations with home transaction values.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TAB 3: TEST PREDICTIONS EXPLORER -->
+    <section id="tab-test-data" class="tab-pane">
+      <div class="section-intro">
+        <h2>Ames Housing Test Dataset Predictions (292 Properties)</h2>
+        <p>Full batch inference evaluated on <code>Hosuing-project-test-data.csv</code> with search, neighborhood filtering, and CSV download.</p>
+      </div>
+
+      <!-- Test Stats Strip -->
+      <div class="kpi-strip">
+        <div class="kpi-card">
+          <span class="kpi-label">Test Properties</span>
+          <span class="kpi-value">292</span>
+          <span class="kpi-sub">Complete Inferences</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Average Predicted Price</span>
+          <span class="kpi-value" id="test-mean-price">$176,351</span>
+          <span class="kpi-sub">Mean</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Median Predicted Price</span>
+          <span class="kpi-value" id="test-median-price">$160,388</span>
+          <span class="kpi-sub">P50</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Predicted Range</span>
+          <span class="kpi-value">$61.5k — $465.7k</span>
+          <span class="kpi-sub">Min to Max</span>
+        </div>
+        <div class="kpi-card highlight">
+          <span class="kpi-label">Total Portfolio Value</span>
+          <span class="kpi-value">$51.5M</span>
+          <span class="kpi-sub">Ames Test Portfolio</span>
+        </div>
+      </div>
+
+      <!-- Table Controls -->
+      <div class="table-controls card">
+        <div class="controls-left">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="table-search" placeholder="Search by ID or Neighborhood..." oninput="handleTableSearch()">
+          </div>
+
+          <div class="filter-box">
+            <label for="filter-neighborhood">Neighborhood:</label>
+            <select id="filter-neighborhood" onchange="handleTableFilter()">
+              <option value="all">All Neighborhoods (25)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="controls-right">
+          <a href="/api/download-predictions" class="btn btn-primary" download>
+            <i class="fa-solid fa-file-csv"></i> Download Predictions CSV
+          </a>
+        </div>
+      </div>
+
+      <!-- Test Table Card -->
+      <div class="card table-card">
+        <div class="table-responsive">
+          <table class="data-table" id="test-table">
+            <thead>
+              <tr>
+                <th onclick="sortTable('id')">Property ID <i class="fa-solid fa-sort"></i></th>
+                <th onclick="sortTable('neighborhood')">Neighborhood <i class="fa-solid fa-sort"></i></th>
+                <th onclick="sortTable('overallQual')">Quality (1-10) <i class="fa-solid fa-sort"></i></th>
+                <th onclick="sortTable('yearBuilt')">Year Built <i class="fa-solid fa-sort"></i></th>
+                <th onclick="sortTable('grLivArea')">Living Area (SF) <i class="fa-solid fa-sort"></i></th>
+                <th>Bed / Bath</th>
+                <th>Garage</th>
+                <th onclick="sortTable('predictedPrice')">Predicted Price <i class="fa-solid fa-sort"></i></th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="test-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination-footer">
+          <span id="page-info">Showing 1 to 25 of 292 records</span>
+          <div class="pagination-buttons">
+            <button class="btn btn-sm btn-outline" id="prev-btn" onclick="changePage(-1)">
+              <i class="fa-solid fa-chevron-left"></i> Previous
+            </button>
+            <button class="btn btn-sm btn-outline" id="next-btn" onclick="changePage(1)">
+              Next <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: MODEL BENCHMARKS & ARCHITECTURE -->
+    <section id="tab-models" class="tab-pane">
+      <div class="section-intro">
+        <h2>Model Architecture, Benchmarks & Pipeline Evaluation</h2>
+        <p>Comparison of multiple algorithms rigorously evaluated using 5-Fold Cross Validation on the training dataset.</p>
+      </div>
+
+      <div class="benchmarks-grid">
+        <!-- Model Comparison Table Card -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-trophy text-amber"></i> 5-Fold Cross-Validation Model Leaderboard
+            </div>
+            <span class="badge badge-success">Optimized for RMSLE</span>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table leaderboard-table">
+              <thead>
+                <tr>
+                  <th>Model Algorithm</th>
+                  <th>CV RMSLE</th>
+                  <th>CV RMSE ($)</th>
+                  <th>CV MAE ($)</th>
+                  <th>R² Score</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body">
+                <!-- Populated via API -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Top Feature Importance Chart -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-chart-bar text-indigo"></i> Top 15 Engineered Feature Importances
+            </div>
+            <span class="badge badge-primary">Normalized Weights</span>
+          </div>
+          <div class="chart-container-lg">
+            <canvas id="importanceChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pipeline Highlights -->
+      <div class="card pipeline-card">
+        <h3><i class="fa-solid fa-gears text-emerald"></i> Machine Learning Pipeline & Engineering Highlights</h3>
+        <div class="pipeline-steps">
+          <div class="pipe-step">
+            <div class="pipe-icon"><i class="fa-solid fa-database"></i></div>
+            <h4>1. Missing Data Logic</h4>
+            <p>Distinguished true absences (e.g. <code>None</code> for Garage, Fireplace, Basement, Pool) from missing observations, preventing erroneous zero imputation.</p>
+          </div>
+          <div class="pipe-step">
+            <div class="pipe-icon"><i class="fa-solid fa-calculator"></i></div>
+            <h4>2. Domain Engineering</h4>
+            <p>Constructed synthetic interaction terms including <code>Qual_TotalSF</code>, <code>Qual_GrLivArea</code>, <code>TotalBath</code>, and property age attributes (<code>HouseAge</code>, <code>RemodAge</code>).</p>
+          </div>
+          <div class="pipe-step">
+            <div class="pipe-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h4>3. Logarithmic Target</h4>
+            <p>Trained regressors on \(\log(1 + \text{SalePrice})\) to penalize relative percentage errors equally and conform to competition-standard RMSLE evaluation.</p>
+          </div>
+          <div class="pipe-step">
+            <div class="pipe-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h4>4. Out-of-Fold Ensemble</h4>
+            <p>Blended XGBoost, LightGBM, Gradient Boosting, Ridge, and Lasso using out-of-fold cross validation weights, suppressing individual model variance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: DATA DICTIONARY -->
+    <section id="tab-dictionary" class="tab-pane">
+      <div class="section-intro">
+        <h2>Ames Housing Feature Dictionary & Documentation</h2>
+        <p>Complete attribute reference parsed directly from <code>Housing-Data-Description.txt</code> covering all 79 dataset variables.</p>
+      </div>
+
+      <div class="dict-search-bar card">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="dict-search" placeholder="Search attribute name (e.g., OverallQual, BsmtFinSF, GarageYrBlt)..." oninput="handleDictSearch()">
+        </div>
+        <span class="dict-count-badge" id="dict-counter">Showing 79 Attributes</span>
+      </div>
+
+      <div class="dict-grid" id="dict-container">
+        <!-- Dynamically rendered feature cards -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <strong>Ames Real Estate AI Valuation Platform</strong>
+        <p>Machine Learning Solution for Ames Housing Price Prediction • Project Scratch Directory</p>
+      </div>
+      <div class="footer-right">
+        <span class="badge badge-outline">FastAPI + Scikit-Learn + XGBoost + LightGBM</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
