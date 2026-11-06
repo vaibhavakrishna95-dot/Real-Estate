@@ -2,7 +2,7 @@
 
 An end-to-end Machine Learning Solution and interactive Web Application built on the comprehensive 80-feature Ames Housing dataset.
 
-----
+-----
 
 ## 📌 Project Overview & Source Data
 
