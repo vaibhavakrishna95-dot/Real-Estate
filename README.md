@@ -31,7 +31,7 @@ housing-price-prediction/
 │   └── trained_models.joblib               # Serialized trained model ensemble
 ├── static/
 │   ├── css/style.css                       # Modern executive UI design
-│   └── js/app.js                           # Interactive charts & app logic
+│   └── js/app.js                           # Interactive charts & app logic 
 ├── templates/
 │   └── index.html                          # Single Page Web Application
 ├── train_models.py                         # 5-Fold CV training & ensembling
