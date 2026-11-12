@@ -8,7 +8,7 @@ An end-to-end Machine Learning Solution and interactive Web Application built on
 
 - **Google Drive Data Source**: [Dataset Folder Link](https://drive.google.com/drive/folders/1lXB1PUJThjo6DnnoH0QdvRf_qHMjJm2M?usp=sharing)
 - **Files Ingested**:
-  - `Housing-project-train-data.csv` (1,168 properties, 81 columns including `SalePrice`)
+  - `Housing-project-train-data.csv` (1,168 properties, 81 columns including `SalePrice`) 
   - `Hosuing-project-test-data.csv` (292 properties, 80 columns)
   - `Housing-Data-Description.txt` (Complete documentation for all 80 attributes)
 - **Output Predictions**: `predictions_test.csv` (Predictions generated for all 292 test houses)
